@@ -1,5 +1,5 @@
 ﻿namespace testing;
-using Pila;
+using Library;
 
 /*
 	- Crea un proyecto de biblioteca de clases.
