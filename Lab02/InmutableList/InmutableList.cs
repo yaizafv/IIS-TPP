@@ -1,6 +1,6 @@
-﻿namespace Library;
+﻿namespace InmutableList;
 
-public class LinkedList 
+public class InmutableList
 {
     public class Node
     {
@@ -14,15 +14,29 @@ public class LinkedList
     }
 
     private Node head;
-    public int Count {private set; get;}
-    public void Add(object item)
+    public int Count { private set; get; }
+
+    public InmutableList()
+    {
+        head = null;
+        Count = 0;
+    }
+
+    public InmutableList(Node node, int count)
+    {
+        this.head = node;
+        Count = count;
+    }
+
+    public InmutableList Add(object item)
     {
         Node nuevo = new Node(item);
         if (head == null)
-            head = nuevo;
+            return new InmutableList(new Node(item), 1);
         else
         {
-            Node actual = head;
+            Node copy = copyNode(head);
+            Node actual = copy;
             while (actual.next != null)
             {
                 actual = actual.next;
@@ -30,12 +44,24 @@ public class LinkedList
             actual.next = nuevo;
         }
         Count++;
+        return new InmutableList(copy, Count);
+    }
+
+    private Node copyNode(Node node)
+    {
+        if (node == null)
+        {
+            throw new ArgumentNullException("node cannot be null");
+        }
+        Node copy = new Node(node.data);
+        copy.next = copyNode(node.next);
+        return copy;
     }
 
     public object ElementAt(uint index)     //uint no admite negativos
     {
         if (index >= Count)
-            throw new IndexOutOfRangeException();
+            throw new IndexOutOfRangeException("index out of range");
         Node actual = head;
         for (int i = 0; i < index; i++)
         {
@@ -44,21 +70,23 @@ public class LinkedList
         return actual.data;
     }
 
-    public void Set(uint index, object item)
+    public InmutableList Set(uint index, object item)
     {
         if (index >= Count)
-            throw new IndexOutOfRangeException();
-        Node actual = head;
+            throw new IndexOutOfRangeException("index out of range");
+        Node copy = copyNode(head);
+        Node actual = copy;
         for (int i = 0; i < index; i++)
             actual = actual.next;
 
         actual.data = item;
+        return this;
     }
 
     public void Insert(uint index, object item)
     {
         if (index > Count)
-            throw new IndexOutOfRangeException();
+            throw new IndexOutOfRangeException("index out of range");
         Node nuevo = new Node(item);
         if (index == 0)
         {
@@ -118,7 +146,7 @@ public class LinkedList
     public void RemoveAt(uint index)
     {
         if (index >= Count)
-            throw new IndexOutOfRangeException();
+            throw new IndexOutOfRangeException("index out of range");
         if (index == 0)
             head = head.next;
         else
@@ -133,9 +161,8 @@ public class LinkedList
         Count--;
     }
 
-    public void Clear()
+    public InmutableList Clear()
     {
-        head = null;
-        Count = 0;
+        return new InmutableList();
     }
 }
