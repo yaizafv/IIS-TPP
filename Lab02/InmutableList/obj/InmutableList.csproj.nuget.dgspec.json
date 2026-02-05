@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\Library\\Library.csproj": {}
+    "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\InmutableList\\InmutableList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\Library\\Library.csproj": {
+    "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\InmutableList\\InmutableList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\Library\\Library.csproj",
-        "projectName": "Library",
-        "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\InmutableList\\InmutableList.csproj",
+        "projectName": "InmutableList",
+        "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\InmutableList\\InmutableList.csproj",
         "packagesPath": "C:\\Users\\yaiza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\Library\\obj\\",
+        "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab02\\InmutableList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

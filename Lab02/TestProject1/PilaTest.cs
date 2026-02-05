@@ -1,6 +1,7 @@
 ﻿namespace testing;
 using Library;
 
+
 /*
 	- Crea un proyecto de biblioteca de clases.
 	- Crea una clase Pila, vacía.
@@ -9,7 +10,7 @@ using Library;
 	- Añade una referencia al proyecto de biblioteca de la pila.
 	- Implementa la pila apoyándote en los tests y las acciones rápidas.
 
-    Tipo examen: nos dan un test de una supuesta funcionalidad y a partir de eso hacer la clase
+
 */
 
 [TestClass]
@@ -75,7 +76,7 @@ public class PilaTest
     [TestMethod]
     public void Pop_EnPilaVacia_LanzaInvalidOperationException()
     {
-        Assert.Throws<InvalidOperationException>(PopEmptyStack);        //le estas diciendo que ejecute ese metodo, por eso no lleva los ()
+        Assert.Throws<InvalidOperationException>(PopEmptyStack);
     }
 */
 
