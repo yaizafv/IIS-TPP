@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("autoboxing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f23ddc0ba5c0acd1af3ca4f5d3ea4521996e7153")]
 [assembly: System.Reflection.AssemblyProductAttribute("autoboxing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("autoboxing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
