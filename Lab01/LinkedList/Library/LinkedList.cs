@@ -32,9 +32,10 @@ public class LinkedList
         Count++;
     }
 
-    public object ElementAt(int index)
+    public object ElementAt(uint index)     //uint no admite negativos
     {
-        IndexValidation(index);
+        if (index >= Count)
+            throw new IndexOutOfRangeException();
         Node actual = head;
         for (int i = 0; i < index; i++)
         {
@@ -43,9 +44,10 @@ public class LinkedList
         return actual.data;
     }
 
-    public void Set(int index, object item)
+    public void Set(uint index, object item)
     {
-        IndexValidation(index);
+        if (index >= Count)
+            throw new IndexOutOfRangeException();
         Node actual = head;
         for (int i = 0; i < index; i++)
             actual = actual.next;
@@ -53,9 +55,9 @@ public class LinkedList
         actual.data = item;
     }
 
-    public void Insert(int index, object item)
+    public void Insert(uint index, object item)
     {
-        if (index < 0 || index > Count)
+        if (index > Count)
             throw new IndexOutOfRangeException();
         Node nuevo = new Node(item);
         if (index == 0)
@@ -113,14 +115,15 @@ public class LinkedList
         return false;
     }
 
-    public void RemoveAt(int index)
+    public void RemoveAt(uint index)
     {
-        IndexValidation(index);
+        if (index >= Count)
+            throw new IndexOutOfRangeException();
         if (index == 0)
             head = head.next;
         else
         {
-            Node actual = head!;
+            Node actual = head;
             for (int i = 0; i < index - 1; i++)
             {
                 actual = actual.next;
@@ -135,11 +138,4 @@ public class LinkedList
         head = null;
         Count = 0;
     }
-
-    private void IndexValidation(int index)
-    {
-        if (index < 0 || index >= Count)
-            throw new IndexOutOfRangeException();
-    }
-
 }
