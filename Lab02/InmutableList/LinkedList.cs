@@ -1,6 +1,5 @@
-﻿namespace Library;
-
-public class LinkedList 
+﻿namespace InmutableList;
+public class LinkedList
 {
     public class Node
     {
@@ -15,6 +14,8 @@ public class LinkedList
 
     private Node head;
     public int Count {private set; get;}
+
+    
     public void Add(object item)
     {
         Node nuevo = new Node(item);
