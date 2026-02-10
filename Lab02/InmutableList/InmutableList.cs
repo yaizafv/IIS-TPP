@@ -3,7 +3,7 @@
 public class InmutableList
 {
     public int Count { private set; get; }
-    private LinkedList linkedList = new LinkedList();
+    private LinkedList linkedList;
 
     public InmutableList(LinkedList linkedList, int count)
     {
@@ -14,7 +14,7 @@ public class InmutableList
     public InmutableList Add(object item)
     {
         LinkedList copy = new LinkedList(linkedList);
-        copia.Add(x);              // uso el Add de la mutable
+        copia.Add(x);              
         return new InmutableList(copia);
     }
 

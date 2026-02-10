@@ -139,4 +139,14 @@ public class LinkedList
         head = null;
         Count = 0;
     }
+
+    public LinkedList Copy()
+    {
+        LinkedList copy = new LinkedList();
+        for(int i = 0; i < Count; i++)
+        {
+            copy.Add(ElementAt((uint)i));
+        }
+        return copy;
+    }
 }
