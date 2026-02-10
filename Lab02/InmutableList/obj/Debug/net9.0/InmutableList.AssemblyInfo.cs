@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InmutableList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae898568d8a11dccbaf582471cfb2679326e9bae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27f5692a2a17ce9c5b9de3988206915dbbbf233")]
 [assembly: System.Reflection.AssemblyProductAttribute("InmutableList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InmutableList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
