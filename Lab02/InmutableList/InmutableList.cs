@@ -5,6 +5,11 @@ public class InmutableList
     public int Count { private set; get; }
     private LinkedList linkedList;
 
+    public InmutableList() { 
+        linkedList = new LinkedList(); 
+    }
+
+
     public InmutableList(LinkedList linkedList)
     {
         this.linkedList = linkedList;
