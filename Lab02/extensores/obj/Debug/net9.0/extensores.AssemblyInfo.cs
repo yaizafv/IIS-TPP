@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("extensores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a930ce13c57cbda21b8338bfd126588b40dedd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93c3ec11af75bb7cb0982643a015ac634a0a7a9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("extensores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("extensores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

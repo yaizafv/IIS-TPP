@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\bin\Release\net9.0\Asertos.exe
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\bin\Release\net9.0\Asertos.deps.json
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\bin\Release\net9.0\Asertos.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\bin\Release\net9.0\Asertos.dll
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\bin\Release\net9.0\Asertos.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.dll
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\refint\Asertos.dll
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\Asertos.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\lab03\Asertos\obj\Release\net9.0\ref\Asertos.dll

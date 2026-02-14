@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.exe
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.deps.json
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.dll
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.dll
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\refint\EqualsHashCode.dll
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\ref\EqualsHashCode.dll

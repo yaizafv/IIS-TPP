@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.exe
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.deps.json
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.dll
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.dll
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\refint\SpotifyEjercicio.dll
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.pdb
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\ref\SpotifyEjercicio.dll

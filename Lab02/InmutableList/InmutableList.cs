@@ -2,15 +2,18 @@
 
 public class InmutableList
 {
-    public int Count { private set; get; }
+    public int Count { get {return linkedList.Count;}}
     private LinkedList linkedList;
 
     public InmutableList() { 
         linkedList = new LinkedList(); 
     }
 
+    public InmutableList(object[] valores) {
+        //...
+    }      
 
-    public InmutableList(LinkedList linkedList)
+    private InmutableList(LinkedList linkedList)
     {
         this.linkedList = linkedList;
     }
@@ -24,11 +27,15 @@ public class InmutableList
 
     public object ElementAt(uint index)
     {
+        if (index >= Count)
+            throw new IndexOutOfRangeException("indice fuera de rango");
         return linkedList.ElementAt(index);
     }
 
     public InmutableList Set(uint index, object item)
     {
+        if (index >= Count)
+            throw new IndexOutOfRangeException("indice fuera de rango");
         LinkedList copy = linkedList.Copy();
         copy.Set(index, item);
         return new InmutableList(copy);
@@ -36,6 +43,8 @@ public class InmutableList
 
     public InmutableList Insert(uint index, object item)
     {
+        if (index > Count)
+            throw new IndexOutOfRangeException("indice fuera de rango");
         LinkedList copy = linkedList.Copy();
         copy.Insert(index, item);
         return new InmutableList(copy);
@@ -55,6 +64,8 @@ public class InmutableList
 
     public InmutableList RemoveAt(uint index)
     {
+        if (index >= Count)
+            throw new IndexOutOfRangeException("indice fuera de rango");
         LinkedList copy = linkedList.Copy();
         copy.RemoveAt(index);
         return new InmutableList(copy);
