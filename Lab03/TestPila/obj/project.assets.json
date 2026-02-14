@@ -1667,40 +1667,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uo301762\\.nuget\\packages\\": {},
+    "C:\\Users\\yaiza\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uo301762\\Desktop\\TPP\\lab03\\TestPila\\TestPila.csproj",
+      "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\TestPila\\TestPila.csproj",
       "projectName": "TestPila",
-      "projectPath": "C:\\Users\\uo301762\\Desktop\\TPP\\lab03\\TestPila\\TestPila.csproj",
-      "packagesPath": "C:\\Users\\uo301762\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uo301762\\Desktop\\TPP\\lab03\\TestPila\\obj\\",
+      "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\TestPila\\TestPila.csproj",
+      "packagesPath": "C:\\Users\\yaiza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\TestPila\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\uo301762\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\yaiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\uo301762\\Desktop\\TPP\\lab03\\Pila\\Pila.csproj": {
-              "projectPath": "C:\\Users\\uo301762\\Desktop\\TPP\\lab03\\Pila\\Pila.csproj"
+            "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\Pila\\Pila.csproj": {
+              "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\Pila\\Pila.csproj"
             }
           }
         }
@@ -1742,7 +1739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

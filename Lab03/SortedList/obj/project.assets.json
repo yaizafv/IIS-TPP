@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SpotifyEjercicio\\SpotifyEjercicio.csproj",
-      "projectName": "SpotifyEjercicio",
-      "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SpotifyEjercicio\\SpotifyEjercicio.csproj",
+      "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SortedList\\SortedList.csproj",
+      "projectName": "SortedList",
+      "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SortedList\\SortedList.csproj",
       "packagesPath": "C:\\Users\\yaiza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SpotifyEjercicio\\obj\\",
+      "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab03\\SortedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asertos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49dd3f3b41db42d84fc0f8dca41036acf04ec678")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asertos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asertos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
