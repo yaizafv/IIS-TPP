@@ -8,7 +8,7 @@ public class SortedList
     public SortedList()
     {
         linkedList = new LinkedList();
-    } 
+    }
 
     public void Add(IComparable item)
     {
@@ -56,5 +56,10 @@ public class SortedList
         if (index >= Count)
             throw new IndexOutOfRangeException("indice fuera de rango");
         linkedList.RemoveAt(index);
+    }
+
+    public void Clear()
+    {
+        linkedList.Clear();
     }
 }
