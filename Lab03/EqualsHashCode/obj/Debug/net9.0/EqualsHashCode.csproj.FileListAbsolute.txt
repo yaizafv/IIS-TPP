@@ -12,3 +12,18 @@ C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\refint\Equal
 C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.pdb
 C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\lab03\EqualsHashCode\obj\Debug\net9.0\ref\EqualsHashCode.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\bin\Debug\net9.0\EqualsHashCode.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\refint\EqualsHashCode.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\EqualsHashCode.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\EqualsHashCode\obj\Debug\net9.0\ref\EqualsHashCode.dll

@@ -7,54 +7,59 @@ using InmutableList;
 public class InmutableListTests
 {
     [TestMethod]
-    public void test_Add()
+    public void Add_DeberiaRetornarNuevaListaYNoModificarOriginal()
     {
-        InmutableList listaOriginal = new InmutableList();
-        InmutableList listaConUno = listaOriginal.Add(1);
-        InmutableList listaConDos = listaConUno.Add(2);
-
-        Assert.AreEqual(0, listaOriginal.Count);
-        Assert.AreEqual(1, listaConUno.Count);
-        Assert.AreEqual(2, listaConDos.Count);
-        Assert.AreNotSame(listaConUno, listaConDos);
+        InmutableList listaOriginal = new InmutableList(new object[] { "A", "B" });
+        InmutableList nuevaLista = listaOriginal.Add("C");
+        Assert.AreEqual(2, listaOriginal.Count);
+        Assert.AreEqual(3, nuevaLista.Count);
+        Assert.AreEqual("C", nuevaLista.ElementAt(2));
     }
 
     [TestMethod]
-    public void test_Set()
+    public void Remove_DeberiaRetornarNuevaListaSinElElemento()
     {
-        InmutableList lista = new InmutableList().Add("Original");
-        InmutableList listaModificada = lista.Set(0, "Modificado");
-
-        Assert.AreEqual("Original", lista.ElementAt(0));
-        Assert.AreEqual("Modificado", listaModificada.ElementAt(0));
+        InmutableList listaOriginal = new InmutableList(new object[] { "A", "B", "C" });
+        InmutableList nuevaLista = listaOriginal.Remove("B");
+        Assert.AreEqual(3, listaOriginal.Count, "La original sigue teniendo 3");
+        Assert.AreEqual(2, nuevaLista.Count, "La nueva debe tener 2");
+        Assert.IsFalse(nuevaLista.Contains("B"), "La nueva lista no debe contener 'B'");
     }
 
     [TestMethod]
-    public void test_Remove()
+    public void Set_DeberiaReemplazarElementoEnNuevaLista()
     {
-        InmutableList lista = new InmutableList().Add("Borrar");
-        InmutableList listaPostBorrado = lista.Remove("Borrar");
-
-        Assert.IsTrue(lista.Contains("Borrar"));
-        Assert.AreEqual(0, listaPostBorrado.Count);
+        InmutableList listaOriginal = new InmutableList(new object[] { "Viejo" });
+        InmutableList nuevaLista = listaOriginal.Set(0, "Nuevo");
+        Assert.AreEqual("Viejo", listaOriginal.ElementAt(0));
+        Assert.AreEqual("Nuevo", nuevaLista.ElementAt(0));
     }
 
     [TestMethod]
-    public void test_ElementAt()
+    public void Insert_DeberiaDesplazarElementosEnNuevaLista()
     {
-        InmutableList lista = new InmutableList().Add("Dato");
-        Assert.ThrowsException<IndexOutOfRangeException>(
-            () => lista.ElementAt(10)
-        );
+        InmutableList listaOriginal = new InmutableList(new object[] { 1, 3 });
+        InmutableList nuevaLista = listaOriginal.Insert(1, 2);
+        Assert.AreEqual(2, listaOriginal.Count);
+        Assert.AreEqual(3, nuevaLista.Count);
+        Assert.AreEqual(1, nuevaLista.ElementAt(0));
+        Assert.AreEqual(2, nuevaLista.ElementAt(1));
+        Assert.AreEqual(3, nuevaLista.ElementAt(2));
     }
 
     [TestMethod]
-    public void test_Clear()
+    public void Clear_DeberiaRetornarListaVaciaYNoAfectarOriginal()
     {
-        InmutableList listaLlena = new InmutableList().Add(1);
-        InmutableList listaVacia = listaLlena.Clear();
-
-        Assert.AreEqual(1, listaLlena.Count);
+        InmutableList listaOriginal = new InmutableList(new object[] { 1, 2, 3 });
+        InmutableList listaVacia = listaOriginal.Clear();
+        Assert.AreEqual(3, listaOriginal.Count);
         Assert.AreEqual(0, listaVacia.Count);
+    }
+
+    [TestMethod]
+    public void ElementAt_IndiceFueraDeRango_DeberiaLanzarExcepcion()
+    {
+        InmutableList lista = new InmutableList(new object[] { "A" });
+        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(5));
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("anulables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+817d196e6321fc3ff087b974d1c4156883acb912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b8e7502ad229c0bcff869abadbf881f6af9f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("anulables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("anulables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,11 @@ C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\refint\Spo
 C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.pdb
 C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\lab03\SpotifyEjercicio\obj\Debug\net9.0\ref\SpotifyEjercicio.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\refint\SpotifyEjercicio.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.pdb

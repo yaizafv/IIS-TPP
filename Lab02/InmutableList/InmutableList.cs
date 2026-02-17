@@ -10,7 +10,11 @@ public class InmutableList
     }
 
     public InmutableList(object[] valores) {
-        //...
+        linkedList = new LinkedList(); 
+        foreach (object valor in valores) 
+        {
+            linkedList.Add(valor);
+        }
     }      
 
     private InmutableList(LinkedList linkedList)
