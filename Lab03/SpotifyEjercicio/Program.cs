@@ -7,8 +7,6 @@ class Program
 {
     static void Main()
     {
-
-        IDownloadable[] downloadables = new IDownloadable();
         var spotify = new Spotify();
         var song1 = new Song("Canción 1");
         var song2 = new Song("Canción 2");
@@ -16,26 +14,39 @@ class Program
         var radio1 = new Radio("Radio 1");
 
         // Combinaciones de las anteriores en distintos arrays con distintos tipos...
+        IPlayable[] playables = { song1, song2, podcast1, radio1 };
+        IDownloadable[] downloadables = { song1, song2, podcast1 };
+        ISerializable[] serializables = { song1, song2, podcast1, radio1 };
 
+        spotify.PlayAll(playables);
+        spotify.DownloadAll(downloadables);
+        spotify.SerializeAll(serializables);
     }
 
     class Spotify
     {
-        public void PlayAll(IPlayable playables)
+        public void PlayAll(IEnumerable<IPlayable> playables)
         {
-            playables.Play();
+            foreach (var item in playables)
+            {
+                item.Play();
+            }
         }
 
-        public void DownloadAll(IDownloadable downloadables)
+        public void DownloadAll(IEnumerable<IDownloadable> downloadables)
         {
-            downloadables.Download();
+            foreach (var item in downloadables)
+            {
+                item.Download();
+            }
         }
 
-        public void SerializeAll(ISerializable serializables)
+        public void SerializeAll(IEnumerable<ISerializable> serializables)
         {
-
-            Console.WriteLine(serializables.Serialize());
-
+            foreach (var item in serializables)
+            {
+                Console.WriteLine(item.Serialize());
+            }
         }
     }
 
@@ -46,6 +57,11 @@ class Program
     class Song : IDownloadable, IPlayable, ISerializable
     {
         private string Name { get; }
+
+        public Song(string name)
+        {
+            Name = name;
+        }
         public void Download()
         {
             Console.WriteLine($"Descargando canción'{Name}'...");
@@ -58,26 +74,7 @@ class Program
 
         public string Serialize()
         {
-            return Name;
-        }
-    }
-
-    class Audio : IDownloadable, IPlayable, ISerializable
-    {
-        private string Name { get; }
-
-        public void Download()
-        {
-            Console.WriteLine($"Descargando canción'{Name}'...");
-        }
-
-        public void Play()
-        {
-            Console.WriteLine($"Reproduciendo canción '{Name}'...");
-        }
-
-        public string Serialize()
-        {
+            Console.WriteLine($"Metadatos serializados: {Name}");
             return Name;
         }
     }
@@ -85,18 +82,24 @@ class Program
     class Podcast : IDownloadable, IPlayable, ISerializable
     {
         private string Name { get; }
+
+        public Podcast(string name)
+        {
+            Name = name;
+        }
         public void Download()
         {
-            Console.WriteLine($"Descargando canción'{Name}'...");
+            Console.WriteLine($"Descargando podcast '{Name}'...");
         }
 
         public void Play()
         {
-            Console.WriteLine($"Reproduciendo canción '{Name}'...");
+            Console.WriteLine($"Reproduciendo podcast '{Name}'...");
         }
 
         public string Serialize()
         {
+            Console.WriteLine($"Metadatos serializados: {Name}");
             return Name;
         }
     }
@@ -105,13 +108,19 @@ class Program
     {
         private string Name { get; }
 
+        public Radio(string name)
+        {
+            Name = name;
+        }
+
         public void Play()
         {
-            Console.WriteLine($"Reproduciendo canción '{Name}'...");
+            Console.WriteLine($"Reproduciendo radio '{Name}'...");
         }
 
         public string Serialize()
         {
+            Console.WriteLine($"Metadatos serializados: {Name}");
             return Name;
         }
     }

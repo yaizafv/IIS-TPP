@@ -20,3 +20,10 @@ C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\Spo
 C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.dll
 C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\refint\SpotifyEjercicio.dll
 C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\bin\Debug\net9.0\SpotifyEjercicio.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\SpotifyEjercicio.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab03\SpotifyEjercicio\obj\Debug\net9.0\ref\SpotifyEjercicio.dll
