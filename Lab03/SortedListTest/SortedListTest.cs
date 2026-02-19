@@ -14,7 +14,7 @@ public class SortedListTest
     }
 
     [TestMethod]
-    public void Add_MantieneElOrdenConEnteros()
+    public void Add_int()
     {
         lista.Add(5);
         lista.Add(1);
@@ -27,7 +27,7 @@ public class SortedListTest
     }
 
     [TestMethod]
-    public void Add_MantieneElOrdenConStrings()
+    public void Add_Strings()
     {
         lista.Add("A");
         lista.Add("B");
@@ -51,11 +51,24 @@ public class SortedListTest
     }
 
     [TestMethod]
-    public void Add_ValorNulo_NoFallaYNoLoAñade()
+    public void Add_ValorNulo()
     {
         lista.Add(null);
 
-        Assert.AreEqual(0, lista.Count);
+        Assert.AreEqual(1, lista.Count);
+    }
+
+    [TestMethod]
+    public void Add_NullRepetidos()
+    {
+        lista.Add(null);
+        lista.Add(1);
+        lista.Add(null);
+
+        Assert.AreEqual(3, lista.Count);
+        Assert.AreEqual(null, lista.ElementAt(0));
+        Assert.AreEqual(null, lista.ElementAt(1));
+        Assert.AreEqual(1, lista.ElementAt(2));
     }
 
     [TestMethod]
@@ -112,6 +125,7 @@ public class SortedListTest
         Assert.IsFalse(resultado);
         Assert.AreEqual(1, lista.Count);
     }
+    
     [TestMethod]
     public void Clear_VaciaLaListaPorCompleto()
     {

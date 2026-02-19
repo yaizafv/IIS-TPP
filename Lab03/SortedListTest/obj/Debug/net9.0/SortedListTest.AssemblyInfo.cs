@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SortedListTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fab61611fd2b094f9713dbfe61b74aa1ae915d30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23bf54bc496486ba53ba67ee997c603c0fbca44f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SortedListTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SortedListTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

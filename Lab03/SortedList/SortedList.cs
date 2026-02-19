@@ -17,7 +17,8 @@ public class SortedList
         for (uint i = 0; i < linkedList.Count; i++)
         {
             IComparable current = (IComparable)linkedList.ElementAt(i);
-            if (item.CompareTo(current) < 0)
+            int comparacion = item?.CompareTo(current) ?? (current == null ? 0 : -1);
+            if (comparacion < 0)
             {
                 index = i;
                 found = true;
