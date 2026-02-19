@@ -23,7 +23,7 @@ public class SortedListTest
         Assert.AreEqual(3, lista.Count);
         Assert.AreEqual(1, lista.ElementAt(0));
         Assert.AreEqual(3, lista.ElementAt(1));
-        Assert.AreEqual(5, lista.ElementAt(2)); // El orden debe ser 1, 3, 5
+        Assert.AreEqual(5, lista.ElementAt(2)); 
     }
 
     [TestMethod]
@@ -63,8 +63,8 @@ public class SortedListTest
     {
         Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(0));
         lista.Add(5);
-        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(5)); // Solo hay 1 elemento
-        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(500)); // Índice negativo
+        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(5));
+        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.ElementAt(500)); 
     }
 
     [TestMethod]
@@ -72,7 +72,7 @@ public class SortedListTest
     {
         lista.Add(10);
         Assert.ThrowsException<IndexOutOfRangeException>(() => lista.RemoveAt(1));
-        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.RemoveAt(500)); // Índice fuera de rango
+        Assert.ThrowsException<IndexOutOfRangeException>(() => lista.RemoveAt(500)); 
     }
 
     [TestMethod]
