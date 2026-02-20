@@ -13,7 +13,6 @@ public class SortedList
     public void Add(IComparable item)
     {
         uint index = 0;
-        bool found = false;
         for (uint i = 0; i < linkedList.Count; i++)
         {
             IComparable current = (IComparable)linkedList.ElementAt(i);
@@ -21,18 +20,11 @@ public class SortedList
             if (comparacion < 0)
             {
                 index = i;
-                found = true;
-                break;
+                linkedList.Insert(index, item);
+                return;
             }
         }
-        if (found)
-        {
-            linkedList.Insert(index, item);
-        }
-        else
-        {
-            linkedList.Add(item);
-        }
+        linkedList.Add(item);
     }
 
     public object ElementAt(uint index)

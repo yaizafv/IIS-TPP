@@ -1,0 +1,11 @@
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\bin\Debug\net9.0\Temperaturas.deps.json
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\bin\Debug\net9.0\Temperaturas.dll
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\bin\Debug\net9.0\Temperaturas.pdb
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.dll
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\refint\Temperaturas.dll
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\Temperaturas.pdb
+C:\Users\uo301762\Desktop\TPP\lab04\Temperaturas\obj\Debug\net9.0\ref\Temperaturas.dll

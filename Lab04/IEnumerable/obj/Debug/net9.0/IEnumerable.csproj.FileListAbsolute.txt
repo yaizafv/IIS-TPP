@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.exe
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.deps.json
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.dll
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.pdb
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.dll
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\refint\IEnumerable.dll
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.pdb
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\ref\IEnumerable.dll
