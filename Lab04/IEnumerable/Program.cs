@@ -96,7 +96,7 @@ class RangoEnumerator : IEnumerator<int>
     private int end = 20;
     
     // Current elemento actual de tipo T (en este caso int).
-    public int Current { get; private set; } = -1;
+    public int Current { get; private set ; } = -1;
 
     object IEnumerator.Current { get { return Current; } }
 
@@ -116,6 +116,6 @@ class RangoEnumerator : IEnumerator<int>
     // Se reinicia la iteración. ¿Siempre?
     public void Reset()
     {
-        Current = -1;
+        Current = start;
     }
 }
