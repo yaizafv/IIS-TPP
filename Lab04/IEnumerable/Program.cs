@@ -94,6 +94,7 @@ class RangoEnumerator : IEnumerator<int>
 {
     private int start = -1;
     private int end = 20;
+    
     // Current elemento actual de tipo T (en este caso int).
     public int Current { get; private set; } = -1;
 
@@ -104,7 +105,7 @@ class RangoEnumerator : IEnumerator<int>
     // Avanzamos por la secuencia e indicamos si hay aún quedan elementos
     public bool MoveNext()
     {
-        if (Current > start && Current < end)
+        if (Current < end)
         {
             Current++;
             return true;

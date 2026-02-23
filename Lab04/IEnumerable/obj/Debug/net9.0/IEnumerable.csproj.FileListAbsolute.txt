@@ -12,3 +12,18 @@ C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\refint\IEnumera
 C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.pdb
 C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\lab04\IEnumerable\obj\Debug\net9.0\ref\IEnumerable.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\bin\Debug\net9.0\IEnumerable.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\refint\IEnumerable.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\IEnumerable.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab04\IEnumerable\obj\Debug\net9.0\ref\IEnumerable.dll
