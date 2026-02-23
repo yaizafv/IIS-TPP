@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListIterableGenerica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7e2bd44cc3fd0013279c25034f822a6a5b78b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fecb314200345bee821f2b2950bbfa0c9437726")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListIterableGenerica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListIterableGenerica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
