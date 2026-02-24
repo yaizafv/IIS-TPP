@@ -20,7 +20,7 @@ public class LinkedList<T> : IEnumerable<T>
 
     public IEnumerator<T> GetEnumerator()
     {
-        return new LinkedListEnumerator<T>(this);
+        return new LinkedListEnumerator(this);
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -28,15 +28,15 @@ public class LinkedList<T> : IEnumerable<T>
         return GetEnumerator();
     }
 
-    private class LinkedListEnumerator<T> : IEnumerator<T>
+    private class LinkedListEnumerator : IEnumerator<T>
     {
-        private LinkedList<T> _lista;
-        private LinkedList<T>.Node _nodoActual;
-        private bool _haComenzado;
+        private LinkedList<T> list;
+        private LinkedList<T>.Node actual;
+        private bool hasStarted;
 
-        public LinkedListEnumerator(LinkedList<T> lista)
+        public LinkedListEnumerator(LinkedList<T> list)
         {
-            this._lista = lista;
+            this.list = list;
             this.Reset();
         }
 
@@ -44,42 +44,37 @@ public class LinkedList<T> : IEnumerable<T>
         {
             get
             {
-                if (!_haComenzado || _nodoActual == null)
+                if (!hasStarted || actual == null)
                 {
-                    throw new InvalidOperationException("Iterador en posición no válida.");
+                    throw new IndexOutOfRangeException("Iterador en posición no valida");
                 }
-                return _nodoActual.data;
+                return actual.data;
             }
         }
 
-        object IEnumerator.Current
-        {
-            get { return Current; }
-        }
+        object IEnumerator.Current { get { return Current; } }
+
+        public void Dispose() { }
 
         public bool MoveNext()
         {
-            if (!_haComenzado)
+            if (!hasStarted)
             {
-                _nodoActual = _lista.head;
-                _haComenzado = true;
+                actual = list.head;
+                hasStarted = true;
             }
-            else if (_nodoActual != null)
+            else if (actual != null)
             {
-                _nodoActual = _nodoActual.next;
+                actual = actual.next;
             }
-
-            // Si el nodo es distinto de null, hay algo que leer (aunque el dato sea null)
-            return _nodoActual != null;
+            return actual != null;
         }
 
         public void Reset()
         {
-            _nodoActual = null;
-            _haComenzado = false;
+            actual = null;
+            hasStarted = false;
         }
-
-        public void Dispose() { }
     }
 
     public void Add(T item)

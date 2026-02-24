@@ -94,9 +94,9 @@ class RangoEnumerator : IEnumerator<int>
 {
     private int start = -1;
     private int end = 20;
-    
+
     // Current elemento actual de tipo T (en este caso int).
-    public int Current { get; private set ; } = -1;
+    public int Current { get; private set; } = -1;
 
     object IEnumerator.Current { get { return Current; } }
 
