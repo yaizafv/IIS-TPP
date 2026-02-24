@@ -16,6 +16,10 @@ class Program
     }
 
     /* Implementa una versión del anterior apoyada en genericidad. */
+    static T MasReciente<T>(MedidaGen<T> a, MedidaGen<T> b)
+    {
+        return a.Fecha > b.Fecha ? a.Valor : b.Valor;
+    }
 
 
     static void Main()
@@ -134,32 +138,44 @@ class Program
         * Añade el código necesario para que no puedan crearse MyNullables con tipos de referencia (object, string,...).
     */
 
-    class MyNullable<T>
+    public struct MyNullable<T> where T : struct
     {
-        T Value
+        private T _valor;
+        private bool _tieneValor;
+
+        public MyNullable(T valor)
+        {
+            this._valor = valor;
+            this._tieneValor = true;
+        }
+
+        public bool HasValue
         {
             get
             {
-                if (!HasValue)
+                return _tieneValor;
+            }
+        }
+
+        public T Value
+        {
+            get
+            {
+                if (!_tieneValor)
                 {
-                    throw new InvalidOperationException();
+                    throw new InvalidOperationException("El objeto no tiene un valor almacenado.");
                 }
-                return Value;
+                return _valor;
             }
         }
 
-        bool HasValue
+        public T GetValueOrDefault()
         {
-            get
+            if (_tieneValor)
             {
-                if ()
+                return _valor;
             }
+            return default(T);
         }
-
-
-
     }
-
-
-
 }

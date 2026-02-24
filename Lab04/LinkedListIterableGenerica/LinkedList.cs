@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 
 namespace LinkedListIterableGenerica;
-public class LinkedList<T> : IEnumerator<int>
+
+public class LinkedList<T> : IEnumerable<T>
 {
     public class Node
     {
@@ -15,11 +16,71 @@ public class LinkedList<T> : IEnumerator<int>
     }
 
     private Node head;
-    public int Count {private set; get;}
+    public int Count { private set; get; }
 
-    public int Current => throw new NotImplementedException();
+    public IEnumerator<T> GetEnumerator()
+    {
+        return new LinkedListEnumerator<T>(this);
+    }
 
-    object IEnumerator.Current => Current;
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
+    }
+
+    private class LinkedListEnumerator<T> : IEnumerator<T>
+    {
+        private LinkedList<T> _lista;
+        private LinkedList<T>.Node _nodoActual;
+        private bool _haComenzado;
+
+        public LinkedListEnumerator(LinkedList<T> lista)
+        {
+            this._lista = lista;
+            this.Reset();
+        }
+
+        public T Current
+        {
+            get
+            {
+                if (!_haComenzado || _nodoActual == null)
+                {
+                    throw new InvalidOperationException("Iterador en posición no válida.");
+                }
+                return _nodoActual.data;
+            }
+        }
+
+        object IEnumerator.Current
+        {
+            get { return Current; }
+        }
+
+        public bool MoveNext()
+        {
+            if (!_haComenzado)
+            {
+                _nodoActual = _lista.head;
+                _haComenzado = true;
+            }
+            else if (_nodoActual != null)
+            {
+                _nodoActual = _nodoActual.next;
+            }
+
+            // Si el nodo es distinto de null, hay algo que leer (aunque el dato sea null)
+            return _nodoActual != null;
+        }
+
+        public void Reset()
+        {
+            _nodoActual = null;
+            _haComenzado = false;
+        }
+
+        public void Dispose() { }
+    }
 
     public void Add(T item)
     {
@@ -148,25 +209,10 @@ public class LinkedList<T> : IEnumerator<int>
     public LinkedList<T> Copy()
     {
         LinkedList<T> copy = new LinkedList<T>();
-        for(int i = 0; i < Count; i++)
+        for (int i = 0; i < Count; i++)
         {
             copy.Add((T)ElementAt((uint)i));
         }
         return copy;
-    }
-
-    public bool MoveNext()
-    {
-        throw new NotImplementedException();
-    }
-
-    public void Reset()
-    {
-        throw new NotImplementedException();
-    }
-
-    public void Dispose()
-    {
-        throw new NotImplementedException();
     }
 }
