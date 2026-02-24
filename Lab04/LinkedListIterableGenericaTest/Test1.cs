@@ -17,9 +17,10 @@ public sealed class Test1
         {
             Console.WriteLine($"Valor: {n}");
         }
-        Assert.AreEqual(1, listaInt[0]);
-        Assert.AreEqual(2, listaInt[1]);
-        Assert.AreEqual(3, listaInt[2]);
+        Assert.AreEqual(3, listaInt.Count);
+        Assert.AreEqual(1, listaInt.ElementAt(0));
+        Assert.AreEqual(2, listaInt.ElementAt(1));
+        Assert.AreEqual(3, listaInt.ElementAt(2));
     }
 
     [TestMethod]
@@ -33,20 +34,25 @@ public sealed class Test1
         {
             Console.WriteLine($"Texto: {s}");
         }
-        Assert.AreEqual("Hola", listaStr[0]);
-        Assert.AreEqual("Hola", listaStr[1]);
+        Assert.AreEqual(2, listaStr.Count);
+        Assert.AreEqual("Hola", listaStr.ElementAt(0));
+        Assert.AreEqual("Mundo", listaStr.ElementAt(1));
     }
 
     public void testDouble()
     {
-        LinkedList<double> listaInt = new LinkedList<double>();
-        listaInt.Add(1.5);
-        listaInt.Add(2.3);
-        listaInt.Add(3.7);
+        LinkedList<double> listaDouble = new LinkedList<double>();
+        listaDouble.Add(1.5);
+        listaDouble.Add(2.3);
+        listaDouble.Add(3.7);
 
-        foreach (int n in listaInt)
+        foreach (int n in listaDouble)
         {
             Console.WriteLine($"Valor: {n}");
         }
+        Assert.AreEqual(3, listaDouble.Count);
+        Assert.AreEqual(1.5, listaDouble.ElementAt(0));
+        Assert.AreEqual(2.3, listaDouble.ElementAt(1));
+        Assert.AreEqual(3.7, listaDouble.ElementAt(2));
     }
 }
