@@ -143,11 +143,9 @@ public class LinkedList<T> : IEnumerable<T>
     public bool Contains(T item)
     {
         Node node = head;
-        while (node != null)
+        foreach (T element in this)
         {
-            if (Equals(node.data, item))
-                return true;
-            node = node.next;
+            if (Equals(element, item)) return true;
         }
         return false;
     }
@@ -204,9 +202,9 @@ public class LinkedList<T> : IEnumerable<T>
     public LinkedList<T> Copy()
     {
         LinkedList<T> copy = new LinkedList<T>();
-        for (int i = 0; i < Count; i++)
+        foreach(T element in this)
         {
-            copy.Add((T)ElementAt((uint)i));
+            copy.Add(element);
         }
         return copy;
     }
