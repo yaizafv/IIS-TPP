@@ -202,7 +202,7 @@ public class LinkedList<T> : IEnumerable<T>
     public LinkedList<T> Copy()
     {
         LinkedList<T> copy = new LinkedList<T>();
-        foreach(T element in this)
+        foreach (T element in this)
         {
             copy.Add(element);
         }
