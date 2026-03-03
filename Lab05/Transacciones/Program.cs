@@ -12,8 +12,6 @@
 public class Program
 {
 
-    //examen: implementa funcion de orden supeior que dado un ienu
-
     /// <summary>
     /// Map es una función de orden superior que transforma uno a uno los elementos de una secuencia
     /// </summary>
@@ -42,25 +40,40 @@ public class Program
             if (condition(elemento))
                 secuenciaResultante.Add(elemento);
         }
-        return secuencia;
+        return secuenciaResultante;
     }
 
-    public static T2 Reduccion<T1,T2>(IEnumerable<T1> secuencia, T2 seed, Func<T1, T2, T2> funcion) 
+    public static T2 Reduce<T1, T2>(IEnumerable<T1> secuencia, T2 seed, Func<T1, T2, T2> funcion)
     {
         T2 r = seed;
         foreach (T1 elemento in secuencia)
         {
-            r = funcion(elemento, r);         
-        }      
-        return r;    
+            r = funcion(elemento, r);
+        }
+        return r;
+    }
+
+    public static IEnumerable<(T1, T2)> Zip<T1, T2>(IEnumerable<T1> l1, IEnumerable<T2> l2)
+    {
+        var res = new List<(T1, T2)>();
+
+        using (var list1 = l1.GetEnumerator())
+        using (var list2 = l2.GetEnumerator())
+
+            while (list1.MoveNext() && list2.MoveNext())
+            {
+                res.Add((list1.Current, list2.Current));
+            }
+
+        return res;
     }
 
     public static void Main()
     {
 
         EjemplosImperativos();
-        // EjercicioTransacciones();
-        // EjercicioZip();
+        EjercicioTransacciones();
+        EjercicioZip();
     }
 
     public static double EntreDos(int a)
@@ -161,10 +174,9 @@ public class Program
         IEnumerable<Venta> filtradas = Filter<Venta>(historicoVentas, venta => venta.Region.ToLower() == "europa");
         IEnumerable<Venta> filtradasConf = Filter(filtradas, venta => venta.Estado == Estado.Confirmada);
         IEnumerable<decimal> netos = Map(filtradasConf, v => v.Cantidad * 0.80m);
-        decimal total1 = Reduccion(netos, 0.0m, (actual, acumulado) => actual + acumulado);
+        decimal total1 = Reduce(netos, 0.0m, (actual, acumulado) => actual + acumulado);
 
         Console.WriteLine($"Beneficio neto en Europa: {totalBeneficioEuropa}");
-
 
         // Cálculo del beneficio medio.
         decimal total = 0;
@@ -206,18 +218,18 @@ public class Program
         //Imprímase por pantalla las tuplas resultantes de aplicar Zip a estas dos secuencias.
         var regiones = new List<string> { "Europa", "África", "Asia" };
         var margenes = new List<decimal> { 0.80m, 0.60m, 0.70m };
-
     }
-}
-public enum Estado
-{
-    Cancelada,
-    Confirmada
-}
 
-public class Venta
-{
-    public required string Region { get; set; }
-    public Estado Estado { get; set; }
-    public decimal Cantidad { get; set; }
+    public enum Estado
+    {
+        Cancelada,
+        Confirmada
+    }
+
+    public class Venta
+    {
+        public required string Region { get; set; }
+        public Estado Estado { get; set; }
+        public decimal Cantidad { get; set; }
+    }
 }

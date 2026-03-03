@@ -56,7 +56,7 @@ class Program
 
         int numero = 4; // Par para que se vea el ejemplo en rojo
         string texto = $"Si este texto es rojo, {numero} es par";
-        
+
         Action<string> mostrar;
 
         if (esPar(numero))
