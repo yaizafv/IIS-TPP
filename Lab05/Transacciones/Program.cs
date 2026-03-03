@@ -155,6 +155,11 @@ public class Program
                 new Venta { Region = "Asia", Estado = Estado.Cancelada, Cantidad = 800m },
             };
 
+        // Número de ventas no confirmadas en Asia
+        IEnumerable<Venta> filtradasAsia = Filter<Venta>(historicoVentas, venta => venta.Region.ToLower() == "asia");
+        IEnumerable<Venta> filtradasConfAsia = Filter(filtradasAsia, venta => venta.Estado == Estado.Cancelada);
+        Console.WriteLine($"Número de ventas no confirmadas en Asia: {filtradasConfAsia.ToArray().Length}");
+
         // Cálculo del beneficio neto en Europa
 
         // EJERCICIO: Parte a transformar 1.
@@ -171,12 +176,46 @@ public class Program
             }
         }
 
-        IEnumerable<Venta> filtradas = Filter<Venta>(historicoVentas, venta => venta.Region.ToLower() == "europa");
-        IEnumerable<Venta> filtradasConf = Filter(filtradas, venta => venta.Estado == Estado.Confirmada);
-        IEnumerable<decimal> netos = Map(filtradasConf, v => v.Cantidad * 0.80m);
-        decimal total1 = Reduce(netos, 0.0m, (actual, acumulado) => actual + acumulado);
+        IEnumerable<Venta> filtradasEuropa = Filter<Venta>(historicoVentas, venta => venta.Region.ToLower() == "europa");
+        IEnumerable<Venta> filtradasConfEuropa = Filter(filtradasEuropa, venta => venta.Estado == Estado.Confirmada);
+        IEnumerable<decimal> netosEuropaConf = Map(filtradasConfEuropa, v => v.Cantidad * 0.80m);
+        decimal totalEuropaConf = Reduce(netosEuropaConf, 0.0m, (actual, acumulado) => actual + acumulado);
+        Console.WriteLine($"Beneficio neto en Europa: {totalEuropaConf}");
 
-        Console.WriteLine($"Beneficio neto en Europa: {totalBeneficioEuropa}");
+        //Región con mayor facturación neta.
+        IEnumerable<decimal> netosEuropa = Map(filtradasConfEuropa, v => v.Cantidad * 0.80m);
+        IEnumerable<decimal> netosAsia = Map(filtradasConfAsia, v => v.Cantidad * 0.80m);
+        decimal totalEuropa = Reduce(netosEuropa, 0.0m, (actual, acumulado) => actual + acumulado);
+        decimal totalAsia = Reduce(netosAsia, 0.0m, (actual, acumulado) => actual + acumulado);
+        var conjuntoResultados = new List<(string Region, decimal Total)> { ("Europa", totalEuropa), ("Asia", totalAsia) };
+        var mayorFacturacion = Reduce(conjuntoResultados, conjuntoResultados[0], (actual, max) => actual.Total > max.Total ? actual : max);
+        Console.WriteLine($"La región con mayor facturación es: {mayorFacturacion.Region}");
+        Console.WriteLine($"Con un total de: {mayorFacturacion.Total}");
+
+        var ranges = new[] { (0m, 100m), (0m, 500m), (500m, 2000m) };
+
+        var result = Program.Reduce(ranges, new Dictionary<string, List<Venta>>(), (range, dict) =>
+        {
+            // Creamos la clave del diccionario (ej: "0-100")
+            string key = $"{range.Item1}-{range.Item2}";
+
+            // Filtramos las ventas que caen en este rango [min, max)
+            // Usamos el método Filter que ya tienes programado
+            IEnumerable<Venta> ventasEnRango = Program.Filter(historicoVentas, v =>
+                v.Cantidad >= range.Item1 && v.Cantidad < range.Item2
+            );
+
+            // Añadimos el resultado al diccionario (convertimos a List para que coincida con el tipo)
+            dict[key] = ventasEnRango.ToList();
+
+            return dict;
+        });
+
+        // 3. Imprimimos los resultados
+        foreach (var item in result)
+        {
+            Console.WriteLine($"Range: {item.Key}, Count: {item.Value.Count}");
+        }
 
         // Cálculo del beneficio medio.
         decimal total = 0;
@@ -219,7 +258,10 @@ public class Program
         var regiones = new List<string> { "Europa", "África", "Asia" };
         var margenes = new List<decimal> { 0.80m, 0.60m, 0.70m };
         var zip = Zip(regiones, margenes);
-        Console.WriteLine(zip);
+        foreach (var element in zip)
+        {
+            Console.WriteLine(element);
+        }
     }
 
     public enum Estado
