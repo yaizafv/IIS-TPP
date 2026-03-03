@@ -218,6 +218,8 @@ public class Program
         //Imprímase por pantalla las tuplas resultantes de aplicar Zip a estas dos secuencias.
         var regiones = new List<string> { "Europa", "África", "Asia" };
         var margenes = new List<decimal> { 0.80m, 0.60m, 0.70m };
+        var zip = Zip(regiones, margenes);
+        Console.WriteLine(zip);
     }
 
     public enum Estado
