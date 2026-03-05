@@ -192,26 +192,22 @@ public class Program
         Console.WriteLine($"La región con mayor facturación es: {mayorFacturacion.Region}");
         Console.WriteLine($"Con un total de: {mayorFacturacion.Total}");
 
-        var ranges = new[] { (0m, 100m), (0m, 500m), (500m, 2000m) };
 
+        // Dado un conjunto de rangos de importe (tupla min, max), utiliza Reduce para agrupar 
+        // las ventas en un Dictionary<string, List<Sale>> donde cada clave represente 
+        // un rango ("min-max") y su valor sea la lista de ventas cuyo Amount esté dentro de 
+        // ese intervalo [min, max).
+
+        var ranges = new[] { (0m, 100m), (0m, 500m), (500m, 2000m) };
         var result = Program.Reduce(ranges, new Dictionary<string, List<Venta>>(), (range, dict) =>
         {
-            // Creamos la clave del diccionario (ej: "0-100")
             string key = $"{range.Item1}-{range.Item2}";
-
-            // Filtramos las ventas que caen en este rango [min, max)
-            // Usamos el método Filter que ya tienes programado
             IEnumerable<Venta> ventasEnRango = Program.Filter(historicoVentas, v =>
                 v.Cantidad >= range.Item1 && v.Cantidad < range.Item2
             );
-
-            // Añadimos el resultado al diccionario (convertimos a List para que coincida con el tipo)
             dict[key] = ventasEnRango.ToList();
-
             return dict;
         });
-
-        // 3. Imprimimos los resultados
         foreach (var item in result)
         {
             Console.WriteLine($"Range: {item.Key}, Count: {item.Value.Count}");

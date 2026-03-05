@@ -1,5 +1,6 @@
 ﻿namespace Test;
 
+using System.Collections;
 using Transacciones;
 
 
@@ -12,7 +13,7 @@ public sealed class Test1
         IList<int> numeros = new List<int> { 2, 5, 9, 3 };
         IList<int> result = new List<int> { 4, 25, 81, 9 };
         IEnumerable<int> cuadrados = Program.Map(numeros, x => x * x);
-        CollectionAssert.AreEqual(cuadrados.ToList(), result.ToList());
+        Assert.IsTrue(result.SequenceEqual(cuadrados));
     }
 
     [TestMethod]
@@ -21,7 +22,7 @@ public sealed class Test1
         IList<string> palabras = new List<string> { "hola", "adios", "mundo", "prueba" };
         IList<int> numeroVocales = new List<int> { 2, 3, 2, 3 };
         IEnumerable<int> conteoVocales = Program.Map(palabras, p => p.ToLower().Count(c => "aeiou".Contains(c)));
-        CollectionAssert.AreEqual(conteoVocales.ToList(), numeroVocales.ToList());
+        Assert.IsTrue(numeroVocales.SequenceEqual(conteoVocales));
     }
 
     [TestMethod]
@@ -29,7 +30,7 @@ public sealed class Test1
     {
         IList<int> numeros = new List<int> { 2, 5, 9, 3 };
         IEnumerable<int> condicion = Program.Filter(numeros, numero => numero < 10);
-        CollectionAssert.AreEqual(condicion.ToList(), numeros.ToList());
+        Assert.IsTrue(condicion.SequenceEqual(numeros));
     }
 
     [TestMethod]
@@ -38,7 +39,7 @@ public sealed class Test1
         IList<int> numeros = new List<int> { 2, 5, 9, 3 };
         IList<int> filtrada = new List<int> {2, 3};
         IEnumerable<int> condicion = Program.Filter(numeros, numero => numero < 5);
-        CollectionAssert.AreEqual(condicion.ToList(), filtrada.ToList());
+        Assert.IsTrue(condicion.SequenceEqual(filtrada));
     }
 
     [TestMethod]
@@ -48,6 +49,7 @@ public sealed class Test1
         IList<int> filtrada = new List<int> {};
         IEnumerable<int> condicion = Program.Filter(numeros, numero => numero < 2);
         CollectionAssert.AreEqual(condicion.ToList(), filtrada.ToList());
+        Assert.IsTrue(condicion.SequenceEqual(filtrada));
     }
 
     [TestMethod]
