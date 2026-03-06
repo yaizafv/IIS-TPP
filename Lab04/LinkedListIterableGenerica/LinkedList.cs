@@ -4,7 +4,7 @@ namespace LinkedListIterableGenerica;
 
 public class LinkedList<T> : IEnumerable<T>
 {
-    public class Node
+    private class Node
     {
         public T data;
         public Node next;
@@ -20,7 +20,7 @@ public class LinkedList<T> : IEnumerable<T>
 
     public IEnumerator<T> GetEnumerator()
     {
-        return new LinkedListEnumerator(this);
+        return new LinkedListEnumerator(head);
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -30,13 +30,13 @@ public class LinkedList<T> : IEnumerable<T>
 
     private class LinkedListEnumerator : IEnumerator<T>
     {
-        private LinkedList<T> list;
+        private Node head;
         private LinkedList<T>.Node actual;
         private bool hasStarted;
 
-        public LinkedListEnumerator(LinkedList<T> list)
+        public LinkedListEnumerator(Node head)   
         {
-            this.list = list;
+            this.head = head;
             this.Reset();
         }
 
@@ -60,7 +60,7 @@ public class LinkedList<T> : IEnumerable<T>
         {
             if (!hasStarted)
             {
-                actual = list.head;
+                actual = this.head;
                 hasStarted = true;
             }
             else if (actual != null)

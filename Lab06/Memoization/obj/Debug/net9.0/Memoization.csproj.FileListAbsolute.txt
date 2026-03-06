@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\bin\Debug\net9.0\Memoization.exe
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\bin\Debug\net9.0\Memoization.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\bin\Debug\net9.0\Memoization.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\bin\Debug\net9.0\Memoization.dll
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\bin\Debug\net9.0\Memoization.pdb
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.dll
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\refint\Memoization.dll
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.pdb
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\Memoization.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab06\Memoization\obj\Debug\net9.0\ref\Memoization.dll
