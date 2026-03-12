@@ -4,9 +4,7 @@ using System.Numerics;
 
 public class MemoizedCalculator<T> where T : INumber<T>
 {
-    // Usamos una tupla (NombreOperacion, OperandoA, OperandoB) como clave única
     private Dictionary<(string, T, T), T> cache;
-
     public T Result { get; private set; } = T.Zero;
     public void Add(T a, T b) => ExecuteOperation("Add", a, b, (x, y) => x + y);
     public void Subtract(T a, T b) => ExecuteOperation("Sub", a, b, (x, y) => x - y);
@@ -21,7 +19,6 @@ public class MemoizedCalculator<T> where T : INumber<T>
     {
         cache.Clear();
         Result = T.Zero;
-        Console.WriteLine("Calculadora reiniciada (Caché vacía).");
     }
 
     private void ExecuteOperation(string opName, T a, T b, Func<T, T, T> operation)

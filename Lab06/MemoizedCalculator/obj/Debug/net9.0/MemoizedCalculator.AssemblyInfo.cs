@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemoizedCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59b7eefcc0af7e1cfd93e67f403f866d41658c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bab2f7792a30b9e3dace36c42019cb40aa631a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemoizedCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemoizedCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
