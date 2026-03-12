@@ -1,42 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics; // Necesario para INumber<T>
+using System.Numerics;
 
 public class MemoizedCalculator<T> where T : INumber<T>
 {
-    // Diccionarios para cachear cada operación por separado
-    private readonly Dictionary<(T, T), T> _addCache = new();
-    private readonly Dictionary<(T, T), T> _subCache = new();
-    private readonly Dictionary<(T, T), T> _mulCache = new();
-    private readonly Dictionary<(T, T), T> _divCache = new();
+    // Usamos una tupla (NombreOperacion, OperandoA, OperandoB) como clave única
+    private Dictionary<(string, T, T), T> cache;
 
     public T Result { get; private set; } = T.Zero;
-
-    public void Add(T a, T b) => ExecuteOperation(a, b, _addCache, (x, y) => x + y, "Suma");
-
-    public void Subtract(T a, T b) => ExecuteOperation(a, b, _subCache, (x, y) => x - y, "Resta");
-
-    public void Multiply(T a, T b) => ExecuteOperation(a, b, _mulCache, (x, y) => x * y, "Multiplicación");
-
+    public void Add(T a, T b) => ExecuteOperation("Add", a, b, (x, y) => x + y);
+    public void Subtract(T a, T b) => ExecuteOperation("Sub", a, b, (x, y) => x - y);
+    public void Multiply(T a, T b) => ExecuteOperation("Mul", a, b, (x, y) => x * y);
     public void Divide(T a, T b)
     {
-        if (T.IsZero(b)) throw new DivideByZeroException("No se puede dividir por cero.");
-        ExecuteOperation(a, b, _divCache, (x, y) => x / y, "División");
+        if (T.IsZero(b)) throw new DivideByZeroException();
+        ExecuteOperation("Div", a, b, (x, y) => x / y);
     }
 
-    // Método privado para centralizar la lógica de memoización
-    private void ExecuteOperation(T a, T b, Dictionary<(T, T), T> cache, Func<T, T, T> operation, string opName)
+    public void Clear()
     {
-        var key = (a, b);
+        cache.Clear();
+        Result = T.Zero;
+        Console.WriteLine("Calculadora reiniciada (Caché vacía).");
+    }
+
+    private void ExecuteOperation(string opName, T a, T b, Func<T, T, T> operation)
+    {
+        var key = (opName, a, b);
 
         if (cache.TryGetValue(key, out T cachedResult))
         {
-            Console.WriteLine($"[Caché] {opName} de {a} y {b} recuperada.");
             Result = cachedResult;
         }
         else
         {
-            Console.WriteLine($"[Cálculo] Realizando nueva {opName} de {a} y {b}.");
             Result = operation(a, b);
             cache[key] = Result;
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nombrados.pordefecto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b8e7502ad229c0bcff869abadbf881f6af9f8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59b7eefcc0af7e1cfd93e67f403f866d41658c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("nombrados.pordefecto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nombrados.pordefecto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

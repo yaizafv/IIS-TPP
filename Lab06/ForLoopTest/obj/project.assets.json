@@ -684,6 +684,16 @@
             "related": ".xml"
           }
         }
+      },
+      "For/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/For.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/For.dll": {}
+        }
       }
     }
   },
@@ -1643,10 +1653,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "For/1.0.0": {
+      "type": "project",
+      "path": "../For/For.csproj",
+      "msbuildProject": "../For/For.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "For >= 1.0.0",
       "MSTest >= 3.6.4",
       "Microsoft.NET.Test.Sdk >= 17.12.0"
     ]
@@ -1680,7 +1696,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab06\\For\\For.csproj": {
+              "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab06\\For\\For.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
