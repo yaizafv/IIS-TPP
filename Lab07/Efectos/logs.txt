@@ -1,0 +1,7 @@
+WARNING:    This is a warning message.
+ERROR:      An error has occurred.
+INFO:       Something important to know.
+CRITICAL:   A critical error has occurred. Immediate attention is required.
+ERROR:      Another error has occurred.
+WARNING:    This is another warning message.
+INFO:       All operations completed successfully.

@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\bin\Debug\net9.0\Lazy.exe
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\bin\Debug\net9.0\Lazy.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\bin\Debug\net9.0\Lazy.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\bin\Debug\net9.0\Lazy.dll
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\bin\Debug\net9.0\Lazy.pdb
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.dll
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\refint\Lazy.dll
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.pdb
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\Lazy.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab07\Lazy\obj\Debug\net9.0\ref\Lazy.dll
