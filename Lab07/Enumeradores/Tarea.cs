@@ -68,8 +68,6 @@ public static class Tarea
         }
     }
 
-    // --- 2. IMPLEMENTACIÓN CON GENERADORES (yield return)  ---
-
     public static IEnumerable<TResult> Map<T, TResult>(this IEnumerable<T> source, Func<T, TResult> map)
     {
         foreach (var item in source)
