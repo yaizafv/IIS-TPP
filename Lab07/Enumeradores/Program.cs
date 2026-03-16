@@ -21,13 +21,13 @@ public static class ExtensionesFuncionales
         public IEnumerator<TResult> GetEnumerator() => new MapEnumerator(source.GetEnumerator(), selector);
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        private class MapEnumerator(IEnumerator<T> src, Func<T, TResult> map) : IEnumerator<TResult>
+        private class MapEnumerator(IEnumerator<T> secuencia, Func<T, TResult> map) : IEnumerator<TResult>
         {
-            public bool MoveNext() => src.MoveNext();
-            public TResult Current => map(src.Current);
+            public bool MoveNext() => secuencia.MoveNext();
+            public TResult Current => map(secuencia.Current);
             object IEnumerator.Current => Current!;
-            public void Reset() => src.Reset();
-            public void Dispose() => src.Dispose();
+            public void Reset() => secuencia.Reset();
+            public void Dispose() => secuencia.Dispose();
         }
     }
 
@@ -36,20 +36,20 @@ public static class ExtensionesFuncionales
         public IEnumerator<T> GetEnumerator() => new FilterEnumerator(source.GetEnumerator(), predicate);
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        private class FilterEnumerator(IEnumerator<T> src, Predicate<T> filter) : IEnumerator<T>
+        private class FilterEnumerator(IEnumerator<T> secuencia, Predicate<T> filter) : IEnumerator<T>
         {
             public bool MoveNext()
             {
-                while (src.MoveNext())
+                while (secuencia.MoveNext())
                 {
-                    if (filter(src.Current)) return true;
+                    if (filter(secuencia.Current)) return true;
                 }
                 return false;
             }
-            public T Current => src.Current;
+            public T Current => secuencia.Current;
             object IEnumerator.Current => Current!;
-            public void Reset() => src.Reset();
-            public void Dispose() => src.Dispose();
+            public void Reset() => secuencia.Reset();
+            public void Dispose() => secuencia.Dispose();
         }
     }
 

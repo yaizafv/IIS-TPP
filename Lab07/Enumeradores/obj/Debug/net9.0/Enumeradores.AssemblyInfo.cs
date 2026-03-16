@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Enumeradores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8134c8129e2b8b1f2348eed9915446be71ac9c62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e45e9196d6024680736a042dc4202c492cb9a657")]
 [assembly: System.Reflection.AssemblyProductAttribute("Enumeradores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Enumeradores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

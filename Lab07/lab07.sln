@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy", "Lazy\Lazy.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generadores", "Generadores\Generadores.csproj", "{6DA11509-B6F4-4B1C-BDCA-8528C0FC324D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeradores", "Enumeradores\Enumeradores.csproj", "{B16056F3-24BA-4C84-8730-EC174652DE85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea", "Enumeradores\Tarea.csproj", "{B16056F3-24BA-4C84-8730-EC174652DE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

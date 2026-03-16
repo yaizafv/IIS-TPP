@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab07\\Enumeradores\\Enumeradores.csproj",
-      "projectName": "Enumeradores",
-      "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab07\\Enumeradores\\Enumeradores.csproj",
+      "projectUniqueName": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab07\\Enumeradores\\Tarea.csproj",
+      "projectName": "Tarea",
+      "projectPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab07\\Enumeradores\\Tarea.csproj",
       "packagesPath": "C:\\Users\\yaiza\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\Lab07\\Enumeradores\\obj\\",
       "projectStyle": "PackageReference",
