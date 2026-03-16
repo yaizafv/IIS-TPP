@@ -2,10 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public static class ExtensionesFuncionales
+public static class Tarea
 {
-    // --- 1. IMPLEMENTACIÓN CON ENUMERADORES 
-
     public static IEnumerable<TResult> MapManual<T, TResult>(this IEnumerable<T> source, Func<T, TResult> selector)
         => new MapEnumerable<T, TResult>(source, selector);
 
@@ -15,7 +13,6 @@ public static class ExtensionesFuncionales
     public static IEnumerable<TResult> ZipManual<T1, T2, TResult>(this IEnumerable<T1> first, IEnumerable<T2> second, Func<T1, T2, TResult> resultSelector)
         => new ZipEnumerable<T1, T2, TResult>(first, second, resultSelector);
 
-    // Clases anidadas para la lógica de los Enumeradores
     private class MapEnumerable<T, TResult>(IEnumerable<T> source, Func<T, TResult> selector) : IEnumerable<TResult>
     {
         public IEnumerator<TResult> GetEnumerator() => new MapEnumerator(source.GetEnumerator(), selector);
@@ -72,19 +69,31 @@ public static class ExtensionesFuncionales
 
     public static IEnumerable<TResult> Map<T, TResult>(this IEnumerable<T> source, Func<T, TResult> map)
     {
-        foreach (var item in source) yield return map(item);
+        foreach (var item in source)
+        {
+            yield return map(item);
+        }
     }
 
     public static IEnumerable<T> Filter<T>(this IEnumerable<T> source, Predicate<T> filter)
     {
-        foreach (var item in source) if (filter(item)) yield return item;
+        foreach (var item in source)
+        {
+            if (filter(item))
+            {
+                yield return item;
+            }
+        }
     }
 
     public static IEnumerable<TResult> Zip<T1, T2, TResult>(this IEnumerable<T1> first, IEnumerable<T2> second, Func<T1, T2, TResult> resultSelector)
     {
         using var e1 = first.GetEnumerator();
         using var e2 = second.GetEnumerator();
-        while (e1.MoveNext() && e2.MoveNext()) yield return resultSelector(e1.Current, e2.Current);
+        while (e1.MoveNext() && e2.MoveNext())
+        {
+            yield return resultSelector(e1.Current, e2.Current);
+        }
     }
 
     // Nota: Reduce no se puede implementar perezoso porque requiere procesar toda la colección.
@@ -96,8 +105,14 @@ public static class ExtensionesFuncionales
         int count = 0;
         foreach (var item in source)
         {
-            if (count++ < n) yield return item;
-            else yield break;
+            if (count++ < n)
+            {
+                yield return item;
+            }
+            else
+            {
+                yield break;
+            }
         }
     }
 
@@ -105,8 +120,14 @@ public static class ExtensionesFuncionales
     {
         foreach (var item in source)
         {
-            if (p(item)) yield return item;
-            else yield break;
+            if (p(item))
+            {
+                yield return item;
+            }
+            else
+            {
+                yield break;
+            }
         }
     }
 
@@ -115,7 +136,10 @@ public static class ExtensionesFuncionales
         int count = 0;
         foreach (var item in source)
         {
-            if (count++ >= n) yield return item;
+            if (count++ >= n)
+            {
+                yield return item;
+            }
         }
     }
 
@@ -124,8 +148,14 @@ public static class ExtensionesFuncionales
         bool yielding = false;
         foreach (var item in source)
         {
-            if (!yielding && !p(item)) yielding = true;
-            if (yielding) yield return item;
+            if (!yielding && !p(item))
+            {
+                yielding = true;
+            }
+            if (yielding)
+            {
+                yield return item;
+            }
         }
     }
 }
