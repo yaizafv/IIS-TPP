@@ -99,10 +99,6 @@ public static class Tarea
         }
     }
 
-    // Nota: Reduce no se puede implementar perezoso porque requiere procesar toda la colección.
-
-    // --- 3. OPERADORES DE PARTICIÓN (Generadores)
-
     public static IEnumerable<T> Take<T>(this IEnumerable<T> source, int n)
     {
         int count = 0;
