@@ -39,7 +39,10 @@ public static class Tarea
             {
                 while (secuencia.MoveNext())
                 {
-                    if (filter(secuencia.Current)) return true;
+                    if (filter(secuencia.Current))
+                    {
+                        return true;
+                    }
                 }
                 return false;
             }
