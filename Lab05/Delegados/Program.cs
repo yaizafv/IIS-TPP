@@ -12,14 +12,14 @@ class Program
     //¿Cómo se definiría el delegado para el método Concatenar, Multiplica y Media?
     public delegate string OpString(string a1, string a2);
     public delegate int OpEntero(int a1, int a2);
-    public delegate T opBinaria<T>(T a1, T a2);    //mierda de solucion
+    public delegate T opBinaria<T>(T a1, T a2);    //mala solución
 
     static void Main()
     {
         // El método Cuadrado es compatible con el delegado Function
         Function cuadrado = Cuadrado;   //funcion que recibe un entero y devuelve un entero
-        Func<int, int> cuadrado2 = Cuadrado;    //devuelve un int y no recibe nada
-        Action<string> toLog = Console.WriteLine;
+        Func<int, int> cuadrado2 = Cuadrado;    //recibe un entero y devuelve un entero
+        Action<string> toLog = Console.WriteLine;   //recibe un string y no devuelve nada
         Console.WriteLine(cuadrado(5));
         toLog("Hola");
         // Func admite de 0 a 16 parámetros de entrada y siempre devuelve un valor (TResult).

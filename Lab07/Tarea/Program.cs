@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public static class Tarea
+public static class Program
 {
     public static IEnumerable<TResult> MapManual<T, TResult>(this IEnumerable<T> source, Func<T, TResult> selector)
         => new MapEnumerable<T, TResult>(source, selector);
@@ -22,7 +22,7 @@ public static class Tarea
         {
             public bool MoveNext() => secuencia.MoveNext();
             public TResult Current => map(secuencia.Current);
-            object IEnumerator.Current => Current!;
+            object IEnumerator.Current => Current;
             public void Reset() => secuencia.Reset();
             public void Dispose() => secuencia.Dispose();
         }
@@ -47,7 +47,7 @@ public static class Tarea
                 return false;
             }
             public T Current => secuencia.Current;
-            object IEnumerator.Current => Current!;
+            object IEnumerator.Current => Current;
             public void Reset() => secuencia.Reset();
             public void Dispose() => secuencia.Dispose();
         }
@@ -62,7 +62,7 @@ public static class Tarea
         {
             public bool MoveNext() => e1.MoveNext() && e2.MoveNext();
             public TResult Current => zip(e1.Current, e2.Current);
-            object IEnumerator.Current => Current!;
+            object IEnumerator.Current => Current;
             public void Reset() { e1.Reset(); e2.Reset(); }
             public void Dispose() { e1.Dispose(); e2.Dispose(); }
         }
@@ -142,14 +142,14 @@ public static class Tarea
 
     public static IEnumerable<T> SkipWhile<T>(this IEnumerable<T> source, Func<T, bool> p)
     { // 
-        bool yielding = false;
+        bool aux = false;
         foreach (var item in source)
         {
-            if (!yielding && !p(item))
+            if (!aux && !p(item))
             {
-                yielding = true;
+                aux = true;
             }
-            if (yielding)
+            if (aux)
             {
                 yield return item;
             }
