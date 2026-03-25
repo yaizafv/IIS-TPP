@@ -1,0 +1,7 @@
+alice; apple; 2
+alice; orange; 10
+alice; banana; 1
+charlie; apple; 1
+bob; apple; 0
+bob; apple; none
+invalid; line
