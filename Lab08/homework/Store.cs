@@ -9,7 +9,7 @@ public static class Store
         for (int i = 0; i < names.Length; i++)
         {
             if (names[i] == product)
-                [cite_start]return new Some<decimal>(prices[i]);
+                return new Some<decimal>(prices[i]);
         }
         return new None<decimal>();
     }

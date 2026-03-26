@@ -4,7 +4,7 @@ public class Some<TData> : Maybe<TData>
 
     public Some(TData value) => Value = value;
 
-    [cite_start] public void Match(Action<TData> some, Action none) => some(Value);
+    public void Match(Action<TData> some, Action none) => some(Value);
 
     public TResult Match<TResult>(Func<TData, TResult> some, Func<TResult> none)
         => some(Value);
@@ -12,5 +12,5 @@ public class Some<TData> : Maybe<TData>
     public Maybe<TResult> AndThen<TResult>(Func<TData, TResult> f)
         => new Some<TResult>(f(Value));
 
-    [cite_start] public TData OrElse(TData defaultValue) => Value;
+    public TData OrElse(TData defaultValue) => Value;
 }
