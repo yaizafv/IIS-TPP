@@ -1,0 +1,51 @@
+Consulta 1
+-----------------------------------------------
+Inception
+Interstellar
+Nomadland
+
+Consulta 2
+-----------------------------------------------
+{ Titulo = Interstellar, FechaEstreno = 05/11/2014 0:00:00 }
+{ Titulo = Arrival, FechaEstreno = 11/11/2016 0:00:00 }
+{ Titulo = Lost in Translation, FechaEstreno = 03/10/2003 0:00:00 }
+
+Consulta 3a
+-----------------------------------------------
+Netflix
+HBO Max
+Prime Video
+
+Consulta 3b
+-----------------------------------------------
+Netflix
+Prime Video
+
+Consulta 4
+-----------------------------------------------
+Netflix
+HBO Max
+
+Consulta 5
+-----------------------------------------------
+{ Titulo = Inception, Puntuacion = 8,8 }
+{ Titulo = Interstellar, Puntuacion = 8,7 }
+{ Titulo = Parasite, Puntuacion = 8,5 }
+
+Consulta 6
+-----------------------------------------------
+{ Plataforma = HBO Max, PeliculaMasCorta = Lost in Translation }
+{ Plataforma = Netflix, PeliculaMasCorta = Lady Bird }
+{ Plataforma = Prime Video, PeliculaMasCorta = Barbie }
+
+Consulta 7
+-----------------------------------------------
+{ Titulo = Inception, MayorPuntuacion = 8,8 }
+{ Titulo = Interstellar, MayorPuntuacion = 8,7 }
+{ Titulo = Arrival, MayorPuntuacion = 8,1 }
+{ Titulo = Parasite, MayorPuntuacion = 9,1 }
+{ Titulo = Memories of Murder, MayorPuntuacion = 8,2 }
+{ Titulo = Lady Bird, MayorPuntuacion = 7,6 }
+{ Titulo = Barbie, MayorPuntuacion = 6,9 }
+{ Titulo = Lost in Translation, MayorPuntuacion = 7,8 }
+{ Titulo = Nomadland, MayorPuntuacion = 7,3 }

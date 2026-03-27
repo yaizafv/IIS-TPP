@@ -1,0 +1,11 @@
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\bin\Debug\net9.0\Modelo.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\bin\Debug\net9.0\Modelo.dll
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\bin\Debug\net9.0\Modelo.pdb
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.dll
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\refint\Modelo.dll
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\Modelo.pdb
+C:\Users\uo301762\Desktop\TPP\Lab09\Modelo\obj\Debug\net9.0\ref\Modelo.dll
