@@ -29,6 +29,13 @@ public class InmutableList
         return new InmutableList(copy);
     }
 
+    public InmutableList AddFirst(object item)
+    {
+        LinkedList copy = linkedList.Copy();
+        copy.AddFirst(item);
+        return new InmutableList(copy);
+    }
+
     public object ElementAt(uint index)
     {
         if (index >= Count)

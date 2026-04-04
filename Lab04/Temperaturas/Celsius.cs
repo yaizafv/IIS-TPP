@@ -47,3 +47,33 @@ public class Celsius : IComparable<Celsius>, IComparable<Fahrenheit>, IComparabl
     }
 }
 
+//Forma correcta: con una interfaz común a ambas clases
+public interface ITemperature : IComparable<ITemperature>
+{
+    double EnCelsius { get; }
+}
+
+public class CelsiusCorrecto : ITemperature
+{
+    public double Grados { get; }
+
+    public double EnCelsius => Grados;
+
+    public CelsiusCorrecto(double grados)
+    {
+        Grados = grados;
+    }
+
+    public override string ToString()
+    {
+        return $"{Grados} °C";
+    }
+
+    public int CompareTo(ITemperature? other)
+    {
+        if (other == null) return -1;
+        return EnCelsius.CompareTo(other.EnCelsius);
+    }
+}
+
+

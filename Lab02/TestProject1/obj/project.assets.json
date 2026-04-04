@@ -685,9 +685,22 @@
           }
         }
       },
+      "InmutableList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InmutableList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InmutableList.dll": {}
+        }
+      },
       "Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "InmutableList": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Library.dll": {}
         },
@@ -1653,6 +1666,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "InmutableList/1.0.0": {
+      "type": "project",
+      "path": "../InmutableList/InmutableList.csproj",
+      "msbuildProject": "../InmutableList/InmutableList.csproj"
     },
     "Library/1.0.0": {
       "type": "project",

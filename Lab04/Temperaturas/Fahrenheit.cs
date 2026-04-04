@@ -46,3 +46,25 @@ public class Fahrenheit : IComparable<Fahrenheit>, IComparable<Celsius>, ICompar
         throw new ArgumentException("No se ha recibido un object de tipo Celsius o Fahrenheit.", nameof(obj));
     }
 }
+
+public class FahrenheitCorrecto : ITemperature
+{
+    public double Grados { get; }
+    public double EnCelsius => (Grados - 32) * 5.0 / 9.0;
+
+    public FahrenheitCorrecto(double grados)
+    {
+        Grados = grados;
+    }
+
+    public override string ToString()
+    {
+        return $"{Grados} °F";
+    }
+
+    public int CompareTo(ITemperature? other)
+    {
+        if (other == null) return 1;
+        return EnCelsius.CompareTo(other.EnCelsius);
+    }
+}

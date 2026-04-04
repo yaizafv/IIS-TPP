@@ -11,7 +11,7 @@ public static class Extensores
     //¿Qué indica el this? this string indica que está extendiendo string 
     public static string Encriptar(this string mensaje, int clave)      //esto cae bastante en el examen. añade un inumerable a string.
     {
-        return CifradoCesar(mensaje, clave);
+        return "a";
     }
 
     public static string Desencriptar(this string message, int clave)
@@ -31,6 +31,31 @@ public static class Extensores
             buffer[i] = (char)(buffer[i] + desplazamiento);
         }
         return new string(buffer);
+    }
+
+    public static int ContarVocales(this string str)
+    {
+        if (string.IsNullOrEmpty(str)) return 0;
+        int contador = 0;
+        string vocales = "aeiouAEIOUáéíóúÁÉÍÓÚ";
+        foreach (char c in str)
+        {
+            if (vocales.Contains(c))
+            {
+                contador++;
+            }
+        }
+        return contador;
+    }
+
+    public static int Minimo(this int[] array)
+    {
+        return array.Min();
+    }
+
+    public static double Media(this double[] array)
+    {
+        return array.Average();
     }
 
 }

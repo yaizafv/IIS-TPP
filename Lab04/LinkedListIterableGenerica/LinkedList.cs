@@ -94,7 +94,7 @@ public class LinkedList<T> : IEnumerable<T>
         Count++;
     }
 
-    public object ElementAt(uint index)     //uint no admite negativos
+    public T ElementAt(uint index)     //uint no admite negativos
     {
         if (index >= Count)
             throw new IndexOutOfRangeException("indice fuera de rango");

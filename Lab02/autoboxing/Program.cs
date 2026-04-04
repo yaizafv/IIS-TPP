@@ -52,6 +52,19 @@ class Program
         */
     }
 
+    static int ContarStrings(object[] items)
+    {
+        int numStrings = 0;
+        foreach(object item in items)
+        {
+            if (item is string)
+            {
+                numStrings++;
+            }
+        }
+        return numStrings;
+    }
+
     static int Unboxing(object o)
     {
         return (int)o;

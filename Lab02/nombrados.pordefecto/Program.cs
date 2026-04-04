@@ -27,12 +27,12 @@ class Program
     {
 
         //¿Qué es var?
-        var saludo = Saludar("Pepe", "es", false); 
+        var saludo = Saludar("Pepe", "es", false);
         Console.WriteLine(saludo);
 
-        var saludo2 = Saludar("Pepe"); 
+        var saludo2 = Saludar("Pepe");
         Console.WriteLine(saludo2);
-        
+
         //nombrados
         var saludo3 = Saludar(nombre: "Pepe", idioma: "en");
         Console.WriteLine(saludo3);
@@ -73,10 +73,38 @@ class Program
     /// <param name="nombre"></param>
     /// <param name="coincidenciaParcial">Establécelo a true para permitir coincidencias parciales. Por defecto: false</param>
     /// <param name="sensibleMayus">Establécelo a true para que la búsqueda distinga entre mayúsculas y minúsculas. Por defecto: true</param>
-    static Persona FindFirstByNombre(Persona[] personas, string nombre,
+    static Persona? FindFirstByNombre(Persona[] personas, string nombre,
         bool coincidenciaParcial, bool sensibleMayus)
     {
+        // Determinamos el modo de comparación de strings
+        StringComparison comparacion = sensibleMayus
+            ? StringComparison.CurrentCulture
+            : StringComparison.CurrentCultureIgnoreCase;
+
+        foreach (Persona persona in personas)
+        {
+            // Ejercicio B: Verificamos que el nombre no sea nulo antes de comparar
+            if (persona.Nombre == null) continue;
+
+            if (coincidenciaParcial)
+            {
+                // Verifica si la subcadena existe
+                if (persona.Nombre.Contains(nombre, comparacion))
+                {
+                    return persona;
+                }
+            }
+            else
+            {
+                // Verifica igualdad total
+                if (persona.Nombre.Equals(nombre, comparacion))
+                {
+                    return persona;
+                }
+            }
+        }
         return null;
+
     }
 
 }

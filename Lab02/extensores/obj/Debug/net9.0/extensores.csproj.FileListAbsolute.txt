@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\bin\Debug\net9.0\extensores.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\bin\Debug\net9.0\extensores.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\bin\Debug\net9.0\extensores.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\bin\Debug\net9.0\extensores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\bin\Debug\net9.0\extensores.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\refint\extensores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\extensores.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab02\extensores\obj\Debug\net9.0\ref\extensores.dll

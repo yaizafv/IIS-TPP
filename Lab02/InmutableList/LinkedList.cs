@@ -33,6 +33,14 @@ public class LinkedList
         Count++;
     }
 
+    public void AddFirst(object item)
+    {
+        Node nuevo = new Node(item);
+        nuevo.next = head;
+        head = nuevo;
+        Count++;
+    }
+
     public object ElementAt(uint index)     //uint no admite negativos
     {
         if (index >= Count)
