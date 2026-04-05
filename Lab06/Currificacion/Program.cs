@@ -74,14 +74,6 @@ class Program
     }
 
     //currificar una funcion que compruebe que una division este bien (con la formula esa)
-    static bool DivisionCorrecta(int dividendo, int divisor)
-    {
-        int cociente = dividendo / divisor;
-        int resto = dividendo % divisor;
-        int result = (divisor * cociente) + resto;
-        if (dividendo == result) return true;
-        return false;
-    }
 
     // Definición Currificada: 
     // Recibe D -> devuelve función que recibe d -> devuelve función que recibe q -> devuelve función que recibe r -> devuelve bool
