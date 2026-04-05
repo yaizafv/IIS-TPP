@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\bin\Debug\net9.0\Generadores.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\bin\Debug\net9.0\Generadores.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\bin\Debug\net9.0\Generadores.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\bin\Debug\net9.0\Generadores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\bin\Debug\net9.0\Generadores.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\refint\Generadores.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\Generadores.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab07\Generadores\obj\Debug\net9.0\ref\Generadores.dll

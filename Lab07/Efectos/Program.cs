@@ -23,6 +23,7 @@ class Program
         IEnumerable<string> lineasTest = ["Hola", "CRITICAL", "No"];
         List<string> listaLog = new List<string>();
         string? resultado3 = FindFirstCriticalV2(lineas, listaLog.Add);
+        Console.WriteLine(resultado3);
         
         // Probar la función en testing, es decir, con efectos secundarios simulados (mocking),
         // para poder verificar su comportamiento sin depender de recursos externos (archivos, consola, etc.).
@@ -48,7 +49,7 @@ class Program
 
     static string? FindFirstCriticalV2(IEnumerable<string> lineas, Action<string> log)
     {
-        log("$Abriendo...");
+        log($"Abriendo...");
         foreach(var linea in lineas)
         {
             if (linea.Contains("CRITICAL", StringComparison.OrdinalIgnoreCase))
