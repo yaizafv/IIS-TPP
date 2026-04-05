@@ -224,6 +224,7 @@ public static class Program
     {
         // Obtener las valoraciones procedentes de la fuente IMDb para aquellas películas cuya duración sea superior a 120 minutos,
         // mostrando el título de la película y su puntuación, ordenadas de mayor a menor puntuación.
+        Console.WriteLine("Consulta 5");
         var consulta5 = modelo.Valoraciones.Where(v => v.Fuente == "IMDb")
         .Join(
                 modelo.Peliculas.Where(p => p.Duracion > 120),
@@ -235,7 +236,6 @@ public static class Program
                     Puntuacion = valoracion.Puntuacion
                 }).OrderByDescending(a => a.Puntuacion);
         Show(consulta5);
-        Console.WriteLine("Consulta 5");
     }
 
     static void Consulta6()
@@ -243,11 +243,36 @@ public static class Program
         // Obtener, para cada plataforma, su nombre y el título de su película más corta ("-" si no tiene películas),
         // ordenando los resultados alfabéticamente por nombre de plataforma.
         Console.WriteLine("Consulta 6");
+        var consulta6 = modelo.Plataformas
+            .Select(plat => new
+            {
+                NombrePlataforma = plat.Nombre,
+                TituloCorta = plat.Peliculas
+                    .OrderBy(p => p.Duracion)
+                    .Select(p => p.Titulo)
+                    .FirstOrDefault() ?? "-" 
+            })
+            .OrderBy(a => a.NombrePlataforma);
+
+        Show(consulta6);
     }
 
     static void Consulta7()
     {
         // Obtener, para cada película que tenga valoraciones, la mayor puntuación recibida entre las distintas fuentes de valoración.
         Console.WriteLine("Consulta 7");
+        var consulta7 = modelo.Valoraciones
+            .GroupBy(v => v.IdImdb)
+            .Join(
+                modelo.Peliculas,
+                grupo => grupo.Key,     
+                pelicula => pelicula.IdImdb,
+                (grupo, pelicula) => new
+                {
+                    Titulo = pelicula.Titulo,
+                    MaximaPuntuacion = grupo.Max(v => v.Puntuacion)
+                }
+            );
+        Show(consulta7);
     }
 }

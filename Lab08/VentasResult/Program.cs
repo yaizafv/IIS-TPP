@@ -106,6 +106,7 @@ static class Program
                 {
                     return new Failure<Venta, string>($"Cantidad inválida en la línea {num} de sales.csv");
                 });
+            return resultado;
         };
     }
 
@@ -127,25 +128,50 @@ static class Program
 
     private static Result<Dictionary<string, T>, string[]> CargarDiccionario<T>(string ruta, Func<int, List<string>, Result<T, string>> f) where T : Identificable
     {
-        // TODO: Implementar acumulando éxitos y errores.
-        // Sugerencia: Reduce con la semilla de tipo (Result<Dictionary<string, T>, string[]>).
-        throw new NotImplementedException();
+        var semilla = (Dicc: new Dictionary<string, T>(), Errores: new List<string>());
+        var acumulado = CargarFilas(ruta, f).Reduce(semilla, (acc, resultadoFila) =>
+        {
+            resultadoFila.Match(
+                item =>
+                {
+                    if (acc.Dicc.ContainsKey(item.Id))
+                        acc.Errores.Add($"ID duplicada '{item.Id}' en fichero '{ruta}'");
+                    else
+                        acc.Dicc[item.Id] = item;
+                },
+                error =>
+                {
+                    acc.Errores.Add(error);
+                }
+            );
+            return acc;
+        });
 
-        // if (errores.Count > 0)
-        //     return new Failure<List<T>, string[]>(errores.ToArray());
-        // return new Success<List<T>, string[]>(lista);        
+        if (acumulado.Errores.Count > 0)
+        {
+            return new Failure<Dictionary<string, T>, string[]>(acumulado.Errores.ToArray());
+        }
+
+        return new Success<Dictionary<string, T>, string[]>(acumulado.Dicc);
     }
 
     private static Result<List<T>, string[]> CargarLista<T>(string ruta, Func<int, List<string>, Result<T, string>> f)
     {
-        // TODO: Implementar acumulando éxitos y errores.
-        // Sugerencia: Reduce con la semilla de tipo (Result<List<T>, string[]>).
-        throw new NotImplementedException();
+        List<T> listaExitos = new List<T>();
+        List<string> listaErrores = new List<string>();
+        var filas = CargarFilas(ruta, f);
+        foreach (var resultadoFila in filas)
+        {
+            resultadoFila.Match(
+                exito => listaExitos.Add(exito),
+                error => listaErrores.Add(error)
+            );
+        }
 
-        // if (errores.Count > 0)
-        //     return new Failure<List<T>, string[]>(errores.ToArray());
-        // return new Success<List<T>, string[]>(lista);
+        if (listaErrores.Count > 0)
+            return new Failure<List<T>, string[]>(listaErrores.ToArray());
 
+        return new Success<List<T>, string[]>(listaExitos);
     }
 
     private static IEnumerable<Result<T, string>> CargarFilas<T>(string ruta, Func<int, List<string>, Result<T, string>> f)

@@ -162,7 +162,6 @@ static class Program
             .Map(t => f(t.num, t.campos)); // f convierte cada fila preprocesada en un objeto concreto.
     }
 
- 
     // Funciones de orden superior
     public static IEnumerable<T2> Map<T1, T2>(this IEnumerable<T1> xs, Func<T1, T2> f)
     {
