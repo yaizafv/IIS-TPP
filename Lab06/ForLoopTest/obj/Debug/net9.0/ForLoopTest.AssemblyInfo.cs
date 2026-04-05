@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForLoopTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ac97b4c9f612d9f580bf1302ddfc5c0c3ee4e82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6396b06aad8218877028a1f05da286d237ab7f37")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForLoopTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForLoopTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
