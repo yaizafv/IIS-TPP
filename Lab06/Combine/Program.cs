@@ -5,12 +5,12 @@ static class Program
     static void Main()
     {
         var texto = "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.";
-        
+
         // Encadenar llamadas mediante el uso de métodos extensores, típico en C#.  
         // Recuento por palabras con longitud menor que 3.
-        IDictionary<string,int> resultadoMetodos = texto.Split(' ')
+        IDictionary<string, int> resultadoMetodos = texto.Split(' ')
             .Map(palabra => palabra.Trim(['.', ',', ';', ':']))
-            .Filter(palabra => palabra.Length < 3) 
+            .Filter(palabra => palabra.Length < 3)
             .Map(palabra => palabra.ToLower())
             .Reduce(new Dictionary<string, int>(), (dicc, palabra) =>
             {
@@ -34,8 +34,7 @@ static class Program
         * EJERCICIO: Implementa versiones del Map, Filter y Reduce currificadas que permitan ejecutar el siguiente código:
         */
 
-
-        Func<IEnumerable<string>, Dictionary<string,int>> procesar = 
+        Func<IEnumerable<string>, Dictionary<string, int>> procesar =
             Combine(
                 Map((string palabra) => palabra.Trim(['.', ',', ';', ':'])),
                 Filter((string palabra) => palabra.Length < 3),
@@ -52,9 +51,25 @@ static class Program
         var resultadoCombine = procesar(texto.Split(' '));
         foreach (var kvp in resultadoCombine)
             Console.WriteLine($"(Combine) {kvp.Key}: {kvp.Value}");
-        
     }
 
+    // Versión currificada de Map
+    public static Func<IEnumerable<T1>, IEnumerable<T2>> Map<T1, T2>(Func<T1, T2> f)
+    {
+        return xs => xs.Map(f); 
+    }
+
+    // Versión currificada de Filter
+    public static Func<IEnumerable<T>, IEnumerable<T>> Filter<T>(Predicate<T> p)
+    {
+        return xs => xs.Filter(p);
+    }
+
+    // Versión currificada de Reduce
+    public static Func<IEnumerable<T1>, T2> Reduce<T1, T2>(T2 seed, Func<T2, T1, T2> f)
+    {
+        return xs => xs.Reduce(seed, f);
+    }
 
     /**************************************************************
      *   IMPLEMENTACIÓN DE MÉTODOS EXTENSORES: Map, Filter, Reduce.
@@ -83,7 +98,6 @@ static class Program
             acc = f(acc, x);
         return acc;
     }
-
 
     /**************************************************************
      *  IMPLEMENTACIÓN DE Combine: 2, 3 y 4 parámetros.

@@ -12,7 +12,7 @@ public class Program
         Action body = () => Console.WriteLine($"Iteración ForLoop: {i}");
 
         Console.WriteLine("Ejecutando ForLoop:");
-        ForLoop(initialize, condition, iteration, body);
+        ForLoopV2(initialize, condition, iteration, body);
     }
     public static void ForLoop(Action initialize, Func<bool> condition, Action iteration, Action body)
     {
@@ -28,6 +28,21 @@ public class Program
             iteration();
             RecursiveStep(condition, iteration, body);
         }
+    }
+
+    public static void ForLoopV2(Action initialize, Func<bool> condition, Action iteration, Action body)    //la forma buena es esta
+    {
+        initialize();
+        Action For = null;
+        For = () => 
+        {
+            if (!condition())
+                return;
+            body();
+            iteration();
+            For(); 
+        };
+        For();
     }
 }
 

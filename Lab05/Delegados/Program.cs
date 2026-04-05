@@ -25,6 +25,8 @@ class Program
         // Func admite de 0 a 16 parámetros de entrada y siempre devuelve un valor (TResult).
         // Predicate admite único parámetro y siempre devuelve bool.
         // Action admite de 0 a 16 parámetros de entrada y el retorno es void.
+        Func<int, int, int> mul = Multiplicar;
+        Func<int, int, double> media = Media;
     }
     static int Cuadrado(int a)
     {

@@ -54,6 +54,17 @@ class Program
             return res;
         }
         return Fibonacci;
+
+        Func<int, int> Fibo = null;
+        Fibo = n =>
+        {
+            if (valores.ContainsKey(n)) return valores[n];      //valores funciona como una cache
+
+            var res = n <= 2 ? 1 : Fibonacci(n - 2) + Fibonacci(n - 1);
+
+            valores[n] = res;
+            return res;
+        };
     }
 
     /***************************************************************************

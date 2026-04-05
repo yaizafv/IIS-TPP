@@ -15,6 +15,7 @@ class Program
         *   {
         *       return string.Format("{0}{1}", a, b);
         *   }
+
         *
         * Podemos obtener una lambda equivalente así:
         *

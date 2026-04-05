@@ -132,7 +132,7 @@ public class Program
             suma += v;
         Console.WriteLine($"La suma: {suma}");
 
-        //Reduccion(valores, (actual, acumulado) => actual + acumulado);
+        double resultado4 = Reduce(valores, 0, (actual, acumulado) => actual + acumulado);
     }
 
     public static int Suma(int a, int b)
@@ -199,10 +199,10 @@ public class Program
         // ese intervalo [min, max).
 
         var ranges = new[] { (0m, 100m), (0m, 500m), (500m, 2000m) };
-        var result = Program.Reduce(ranges, new Dictionary<string, List<Venta>>(), (range, dict) =>
+        var result = Reduce(ranges, new Dictionary<string, List<Venta>>(), (range, dict) =>
         {
             string key = $"{range.Item1}-{range.Item2}";
-            IEnumerable<Venta> ventasEnRango = Program.Filter(historicoVentas, v =>
+            IEnumerable<Venta> ventasEnRango = Filter(historicoVentas, v =>
                 v.Cantidad >= range.Item1 && v.Cantidad < range.Item2
             );
             dict[key] = ventasEnRango.ToList();
@@ -253,7 +253,7 @@ public class Program
         //Imprímase por pantalla las tuplas resultantes de aplicar Zip a estas dos secuencias.
         var regiones = new List<string> { "Europa", "África", "Asia" };
         var margenes = new List<decimal> { 0.80m, 0.60m, 0.70m };
-        var zip = Zip(regiones, margenes);
+        IEnumerable<(string, decimal)> zip = Zip(regiones, margenes);
         foreach (var element in zip)
         {
             Console.WriteLine(element);
