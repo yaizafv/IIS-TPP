@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 
+
 public class MemoizedCalculator<T> where T : INumber<T>
 {
     private Dictionary<(string, T, T), T> cache;
