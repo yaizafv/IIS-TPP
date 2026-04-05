@@ -34,15 +34,54 @@ public class Program
     {
         initialize();
         Action For = null;
-        For = () => 
+        For = () =>
         {
             if (!condition())
                 return;
             body();
             iteration();
-            For(); 
+            For();
         };
         For();
+    }
+
+    public static void WhileLoop(Func<bool> condition, Action body)
+    {
+        Action While = null;
+        While = () =>
+        {
+            if (!condition()) return;
+            body();
+            While();
+        };
+        While();
+    }
+
+    public static void DoWhileLoop(Func<bool> condition, Action body)
+    {
+        Action DoWhile = null;
+        DoWhile = () =>
+        {
+            body();
+            if (!condition()) return;
+            DoWhile();
+        };
+        DoWhile();
+    }
+
+    public static void SwitchLoop<T>(T valor, Dictionary<T, Action> casos, Action defaultCase = null)
+    {
+        // 1. Buscamos si el valor existe en nuestro "diccionario de casos"
+        if (casos.ContainsKey(valor))
+        {
+            // 2. Si existe, ejecutamos la acción asociada
+            casos[valor]();
+        }
+        // 3. Si no existe y tenemos un caso por defecto, lo ejecutamos
+        else if (defaultCase != null)
+        {
+            defaultCase();
+        }
     }
 }
 
