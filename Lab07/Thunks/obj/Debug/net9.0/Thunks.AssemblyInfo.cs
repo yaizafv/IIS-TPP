@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Thunks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8f16dff2881c799a482895006256436a77d13b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e819e6e66a50cc8c8f89176cd4d94cfef49bc1ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Thunks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Thunks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

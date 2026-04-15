@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\bin\Debug\net9.0\HilosBasico.exe
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\bin\Debug\net9.0\HilosBasico.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\bin\Debug\net9.0\HilosBasico.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\bin\Debug\net9.0\HilosBasico.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\bin\Debug\net9.0\HilosBasico.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\refint\HilosBasico.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\HilosBasico.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosBasico\obj\Debug\net9.0\ref\HilosBasico.dll

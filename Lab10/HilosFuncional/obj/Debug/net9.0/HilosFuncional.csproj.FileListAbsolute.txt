@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\bin\Debug\net9.0\HilosFuncional.exe
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\bin\Debug\net9.0\HilosFuncional.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\bin\Debug\net9.0\HilosFuncional.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\bin\Debug\net9.0\HilosFuncional.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\bin\Debug\net9.0\HilosFuncional.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\refint\HilosFuncional.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\HilosFuncional.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosFuncional\obj\Debug\net9.0\ref\HilosFuncional.dll

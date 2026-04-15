@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Currificacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ac97b4c9f612d9f580bf1302ddfc5c0c3ee4e82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e819e6e66a50cc8c8f89176cd4d94cfef49bc1ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Currificacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Currificacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

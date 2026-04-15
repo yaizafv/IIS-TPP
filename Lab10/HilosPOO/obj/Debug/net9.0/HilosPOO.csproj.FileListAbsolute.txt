@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\bin\Debug\net9.0\HilosPOO.exe
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\bin\Debug\net9.0\HilosPOO.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\bin\Debug\net9.0\HilosPOO.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\bin\Debug\net9.0\HilosPOO.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\bin\Debug\net9.0\HilosPOO.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\refint\HilosPOO.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\HilosPOO.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\HilosPOO\obj\Debug\net9.0\ref\HilosPOO.dll

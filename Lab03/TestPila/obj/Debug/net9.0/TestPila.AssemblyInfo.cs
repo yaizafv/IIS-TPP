@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestPila")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1017f18dd84c4e111c65c2b69a12c8e04757c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e819e6e66a50cc8c8f89176cd4d94cfef49bc1ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestPila")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestPila")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

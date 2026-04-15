@@ -48,7 +48,7 @@ class Program
         {
             if (valores.ContainsKey(n)) return valores[n];      //valores funciona como una cache
 
-            var res = n <= 2 ? 1 : Fibonacci(n - 2) + Fibonacci(n - 1);
+            int res = n <= 2 ? 1 : Fibonacci(n - 2) + Fibonacci(n - 1);
 
             valores[n] = res;
             return res;
@@ -60,11 +60,12 @@ class Program
         {
             if (valores.ContainsKey(n)) return valores[n];      //valores funciona como una cache
 
-            var res = n <= 2 ? 1 : Fibo(n - 2) + Fibo(n - 1);
+            int res = n <= 2 ? 1 : Fibo(n - 2) + Fibo(n - 1);
 
             valores[n] = res;
             return res;
         };
+        return Fibo;
     }
 
     /***************************************************************************

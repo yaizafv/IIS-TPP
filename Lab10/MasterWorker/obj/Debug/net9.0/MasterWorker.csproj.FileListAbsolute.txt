@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\bin\Debug\net9.0\MasterWorker.exe
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\bin\Debug\net9.0\MasterWorker.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\bin\Debug\net9.0\MasterWorker.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\bin\Debug\net9.0\MasterWorker.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\bin\Debug\net9.0\MasterWorker.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\refint\MasterWorker.dll
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.pdb
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\MasterWorker.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab10\MasterWorker\obj\Debug\net9.0\ref\MasterWorker.dll

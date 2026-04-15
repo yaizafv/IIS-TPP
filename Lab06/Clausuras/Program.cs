@@ -14,6 +14,12 @@ class Program
     {
         Func<decimal, decimal> depositar = Cuenta(1000m);
         Console.WriteLine($"Depositar 100: {depositar(100m)}");
+
+        var (depositar2, extraer) = Cuenta2(100);
+        decimal saldoTrasDeposito = depositar2(50);
+        Console.WriteLine($"Tras depositar 50: {saldoTrasDeposito}");
+        decimal saldoTrasExtraccion = extraer(30);
+        Console.WriteLine($"Tras extraer 30: {saldoTrasExtraccion}");
     }
 
     //clausura - funcion que almacena su estado o contexto 
