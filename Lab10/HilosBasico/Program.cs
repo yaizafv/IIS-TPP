@@ -8,7 +8,7 @@ class Program
         Thread hilo = new Thread(Tarea);        //crea un hilo secundario
         hilo.Name = "Hilo 1";
         hilo.Priority = ThreadPriority.AboveNormal;
-        hilo.IsBackground = true;       //aqui no se ejecuta Tarea porque cuando el hilo principal mata a todos los demons (si no hubiera join)
+        hilo.IsBackground = true;       //aqui no se ejecuta Tarea porque cuando el hilo principal termina mata a todos los demons (si no hubiera join)
 
         Console.WriteLine($"Main [id={Thread.CurrentThread.ManagedThreadId}]");
         Console.WriteLine($"Hilo \"{hilo.Name}\" creado. Estado: {hilo.ThreadState}");
