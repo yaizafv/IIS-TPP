@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HilosFuncional")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e819e6e66a50cc8c8f89176cd4d94cfef49bc1ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4435f8148e4a3f201ed62d6b06456ef38115b850")]
 [assembly: System.Reflection.AssemblyProductAttribute("HilosFuncional")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HilosFuncional")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

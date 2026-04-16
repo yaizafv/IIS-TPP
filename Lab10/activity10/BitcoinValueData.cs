@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 
 namespace activity10;
-internal class BitcoinValueData
+
+public class BitcoinValueData
 {
     public DateTime Timestamp { get; set; }
     public double Value { get; set; }

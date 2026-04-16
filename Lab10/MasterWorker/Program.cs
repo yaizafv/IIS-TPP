@@ -26,9 +26,9 @@ class Program
 
             MostrarLinea(Console.Out, numeroHilos, stopWatch.ElapsedTicks, resultado);
 
-            GC.Collect(); 
+            GC.Collect();
             GC.WaitForFullGCComplete();
-        }          
+        }
     }
 
     public static short[] CrearVectorAleatorio(int numElementos, short menor, short mayor)

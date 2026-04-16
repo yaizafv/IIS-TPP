@@ -1,4 +1,4 @@
-﻿namespace activity10;
+namespace activity10;
 
 internal class Utils
 {

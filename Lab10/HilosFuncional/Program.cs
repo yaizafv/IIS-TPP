@@ -36,7 +36,7 @@ class Program
         Action<object?> obtenerDatos = valor =>
         {
             Console.WriteLine($"[ID={Thread.CurrentThread.ManagedThreadId}] Obteniendo datos del destino: {valor}");
-            Thread.Sleep(2000); //Simulamos carga de trabajo
+            Thread.Sleep(2000);         //Simulamos carga de trabajo
             Console.WriteLine($"[ID={Thread.CurrentThread.ManagedThreadId}] Datos obtenidos y almacenados.");
         };
 

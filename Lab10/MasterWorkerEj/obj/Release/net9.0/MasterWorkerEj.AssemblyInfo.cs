@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterWorkerEj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4435f8148e4a3f201ed62d6b06456ef38115b850")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterWorkerEj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterWorkerEj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,10 +1,13 @@
 ﻿using System;
 
-namespace TPP.Concurrency.Threads {
-    
-    public class VectorModulusProgram {
+namespace TPP.Concurrency.Threads
+{
 
-        static void Main(string[] args) {
+    public class VectorModulusProgram
+    {
+
+        static void Main(string[] args)
+        {
             short[] vector = CreateRandomVector(100000, -100, 100);
 
             // * Computation with one single thread
@@ -14,7 +17,7 @@ namespace TPP.Concurrency.Threads {
             DateTime after = DateTime.Now;
             Console.WriteLine("The result obtained with one single thread is: {0:N2}.", result);
             Console.WriteLine("Elapsed time: {0:N0} ticks.",
-                (after - before).Ticks );
+                (after - before).Ticks);
 
             // * Computation with four threads
             master = new Master(vector, 4);
@@ -33,7 +36,8 @@ namespace TPP.Concurrency.Threads {
         /// <param name="lowest">The lowest value to be used in the generation of vector elements</param>
         /// <param name="greatest">The greatest value to be used in the generation of vector elements</param>
         /// <returns>The random vector</returns>
-        public static short[] CreateRandomVector(int numberOfElements, short lowest, short greatest) {
+        public static short[] CreateRandomVector(int numberOfElements, short lowest, short greatest)
+        {
             short[] vector = new short[numberOfElements];
             Random random = new Random();
             for (int i = 0; i < numberOfElements; i++)
