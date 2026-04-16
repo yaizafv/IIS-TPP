@@ -96,7 +96,7 @@ class Program
     {
         int recuentoMultihilo = 0;
         Thread[] hilos = new Thread[numHilos];
-        object obj = new object(); 
+        object obj = new object();
         int[] array = new int[numHilos];
         for (int i = 0; i < hilos.Length; i++)
         {
@@ -112,10 +112,10 @@ class Program
                 {
                     if (vector[i] is 2 or 3)
                     {
-                        contador++; 
+                        contador++;
                     }
                 }
-                lock(obj)
+                lock (obj)
                 {
                     recuentoMultihilo = recuentoMultihilo + contador;
                 }

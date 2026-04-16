@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Deadlock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0b7d46e4f25e5600e964a15e1c1088e5dad6e97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7ad34be3b0e5500841b4747c3cd723d7eaac745")]
 [assembly: System.Reflection.AssemblyProductAttribute("Deadlock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Deadlock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

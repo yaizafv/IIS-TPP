@@ -10,22 +10,22 @@ class Program
 
         // Recuento de los números 2 y 3 en un vector.
         // Secuencial
- 
+
         int recuentoSecuencial = 0;
-        for(int i = 0; i < vector.Length; i++)
+        for (int i = 0; i < vector.Length; i++)
         {
             if (vector[i] is 2 or 3)
                 recuentoSecuencial++;
         }
         Console.WriteLine($"[Secuencial] Los números 2 y 3 aparecen {recuentoSecuencial} veces.");
-    
-        
+
+
         // Multihilo
-        
+
         int recuentoMultihilo = 0;
 
         Thread[] hilos = new Thread[4];
-        for(int i = 0; i < hilos.Length; i++)
+        for (int i = 0; i < hilos.Length; i++)
         {
             int inicio = i * vector.Length / hilos.Length;
             int fin = inicio + vector.Length / hilos.Length;
@@ -34,13 +34,13 @@ class Program
 
             hilos[i] = new Thread(() =>
             {
-                for(int i = inicio; i < fin; i++)
+                for (int i = inicio; i < fin; i++)
                 {
                     if (vector[i] is 2 or 3)        //el vector no es recurso compartido porque solo se lee
-                    {   
+                    {
                         recuentoMultihilo++;        //recurso compartido
                     }
-                }                
+                }
             });
             hilos[i].Start();
         }
@@ -51,7 +51,7 @@ class Program
         Console.WriteLine($"[Multihilo] Los números 2 y 3 aparecen {recuentoMultihilo} veces.");
 
         // Ejecuta el programa varias veces. Luego, incrementa drásticamente el tamaño del vector. ¿Qué ocurre?
-        
+
         // El acceso concurrente a estado (o recursos) compartidos debe coordinarse
         // CUANDO PUEDA DAR lugar a condiciones de carrera
         // o a problemas de atomicidad y consistencia (repasa la teoría).

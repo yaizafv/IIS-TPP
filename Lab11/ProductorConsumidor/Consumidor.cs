@@ -31,7 +31,7 @@ public class Consumidor
                 Console.WriteLine($"Se han impreso {hojasImpresas} hojas.");
             }
 
-            Thread.Sleep(random.Next(300, 700));        
+            Thread.Sleep(random.Next(300, 700));
         }
     }
 }

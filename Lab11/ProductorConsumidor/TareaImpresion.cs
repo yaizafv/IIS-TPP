@@ -4,10 +4,10 @@ namespace ProductorConsumidor;
 
 public class TareaImpresion
 {
-    public int TareaId { get;}
-    public string NombreFichero { get;}
-    public int NumPaginas { get;}
-    public int NumCopias { get;}
+    public int TareaId { get; }
+    public string NombreFichero { get; }
+    public int NumPaginas { get; }
+    public int NumCopias { get; }
     public bool DobleCara { get; }
 
     public TareaImpresion(int tareaId, string nombreFichero, int numPaginas, int numCopias, bool dobleCara)
@@ -21,7 +21,7 @@ public class TareaImpresion
 
     public int Imprimir()
     {
-        int hojasPorCopia = DobleCara? (NumPaginas + 1) / 2 : NumPaginas;
+        int hojasPorCopia = DobleCara ? (NumPaginas + 1) / 2 : NumPaginas;
         return hojasPorCopia * NumCopias;
     }
 
