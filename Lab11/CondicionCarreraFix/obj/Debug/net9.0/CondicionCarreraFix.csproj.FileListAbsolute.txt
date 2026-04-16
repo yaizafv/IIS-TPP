@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\bin\Debug\net9.0\CondicionCarreraFix.exe
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\bin\Debug\net9.0\CondicionCarreraFix.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\bin\Debug\net9.0\CondicionCarreraFix.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\bin\Debug\net9.0\CondicionCarreraFix.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\bin\Debug\net9.0\CondicionCarreraFix.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\refint\CondicionCarreraFix.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\CondicionCarreraFix.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarreraFix\obj\Debug\net9.0\ref\CondicionCarreraFix.dll

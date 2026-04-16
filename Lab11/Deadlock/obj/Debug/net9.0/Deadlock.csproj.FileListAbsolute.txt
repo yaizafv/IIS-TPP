@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\bin\Debug\net9.0\Deadlock.exe
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\bin\Debug\net9.0\Deadlock.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\bin\Debug\net9.0\Deadlock.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\bin\Debug\net9.0\Deadlock.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\bin\Debug\net9.0\Deadlock.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\refint\Deadlock.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\Deadlock.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\Deadlock\obj\Debug\net9.0\ref\Deadlock.dll

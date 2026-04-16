@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\bin\Debug\net9.0\ProductorConsumidor.exe
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\bin\Debug\net9.0\ProductorConsumidor.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\bin\Debug\net9.0\ProductorConsumidor.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\bin\Debug\net9.0\ProductorConsumidor.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\bin\Debug\net9.0\ProductorConsumidor.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\refint\ProductorConsumidor.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ProductorConsumidor.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\ProductorConsumidor\obj\Debug\net9.0\ref\ProductorConsumidor.dll

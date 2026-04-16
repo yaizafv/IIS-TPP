@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\bin\Debug\net9.0\CondicionCarrera.exe
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\bin\Debug\net9.0\CondicionCarrera.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\bin\Debug\net9.0\CondicionCarrera.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\bin\Debug\net9.0\CondicionCarrera.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\bin\Debug\net9.0\CondicionCarrera.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\refint\CondicionCarrera.dll
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.pdb
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\CondicionCarrera.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab11\CondicionCarrera\obj\Debug\net9.0\ref\CondicionCarrera.dll
