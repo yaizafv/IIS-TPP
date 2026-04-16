@@ -1,0 +1,20 @@
+﻿<Window x:Class="generativeprogramming.FormFunction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:generativeprogramming"
+        mc:Ignorable="d"
+        Title="Function" Height="200" Width="240" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label1" Content="Function body; f(x)=" VerticalAlignment="Top" HorizontalAlignment="Left" Width="114" Height="25"/>
+        <Label x:Name="label2" Content="From:" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="25" Margin="0,42,0,0"/>
+        <Label x:Name="label3" Content="To:" VerticalAlignment="Top" HorizontalAlignment="Left" Width="37" Height="25" Margin="117,42,0,0"/>
+        <Label x:Name="label4" Content="Increment:" VerticalAlignment="Top" HorizontalAlignment="Left" Width="74" Height="25" Margin="20,84,0,0"/>
+        <Button x:Name="buttonAccept" Content="Accept" HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" Width="65" Click="buttonAccept_Click"/>
+        <TextBox x:Name="textBoxFunctionBody" HorizontalAlignment="Left" Margin="114,4,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <TextBox x:Name="textBoxFrom" HorizontalAlignment="Left" Margin="38,46,0,0" Text="-1.0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="textBoxTo" HorizontalAlignment="Left" Margin="139,46,0,0" Text="1.0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="textBoxIncrement" HorizontalAlignment="Left" Margin="86,89,0,0" Text="0.1" TextWrapping="Wrap" VerticalAlignment="Top" Width="80                  "/>
+    </Grid>
+</Window>

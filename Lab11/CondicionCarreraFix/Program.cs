@@ -117,7 +117,7 @@ class Program
                 }
                 lock (obj)
                 {
-                    recuentoMultihilo = recuentoMultihilo + contador;
+                    recuentoMultihilo += contador;
                 }
             });
             hilos[i].Start();

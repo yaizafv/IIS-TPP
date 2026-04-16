@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "partial.application", "partial.application\partial.application.csproj", "{9E977FDD-7D83-4973-98FC-0F1952655291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "closures", "closures\closures.csproj", "{EB1F91F0-7F37-4810-8BE9-250CE2FA4036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "currying", "Currying\currying.csproj", "{492DF8C2-3A7B-4FC1-BABD-C423F35E8B9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E977FDD-7D83-4973-98FC-0F1952655291}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E977FDD-7D83-4973-98FC-0F1952655291}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E977FDD-7D83-4973-98FC-0F1952655291}.Release|x86.ActiveCfg = Release|x86
+		{9E977FDD-7D83-4973-98FC-0F1952655291}.Release|x86.Build.0 = Release|x86
+		{EB1F91F0-7F37-4810-8BE9-250CE2FA4036}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB1F91F0-7F37-4810-8BE9-250CE2FA4036}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB1F91F0-7F37-4810-8BE9-250CE2FA4036}.Release|x86.ActiveCfg = Release|x86
+		{EB1F91F0-7F37-4810-8BE9-250CE2FA4036}.Release|x86.Build.0 = Release|x86
+		{492DF8C2-3A7B-4FC1-BABD-C423F35E8B9C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{492DF8C2-3A7B-4FC1-BABD-C423F35E8B9C}.Debug|x86.Build.0 = Debug|Any CPU
+		{492DF8C2-3A7B-4FC1-BABD-C423F35E8B9C}.Release|x86.ActiveCfg = Release|x86
+		{492DF8C2-3A7B-4FC1-BABD-C423F35E8B9C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38922A2B-A7B1-444D-84A2-5775AD333494}
+	EndGlobalSection
+EndGlobal
