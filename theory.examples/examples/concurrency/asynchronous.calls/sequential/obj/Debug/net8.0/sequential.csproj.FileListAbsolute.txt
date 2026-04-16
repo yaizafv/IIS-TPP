@@ -1,0 +1,13 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\bin\Debug\net8.0\sequential.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\bin\Debug\net8.0\sequential.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\bin\Debug\net8.0\sequential.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\bin\Debug\net8.0\sequential.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\bin\Debug\net8.0\sequential.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\refint\sequential.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\sequential.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\asynchronous.calls\sequential\obj\Debug\net8.0\ref\sequential.dll

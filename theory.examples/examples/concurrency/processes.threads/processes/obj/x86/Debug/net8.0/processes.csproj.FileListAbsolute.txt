@@ -1,0 +1,13 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\bin\x86\Debug\net8.0\processes.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\bin\x86\Debug\net8.0\processes.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\bin\x86\Debug\net8.0\processes.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\bin\x86\Debug\net8.0\processes.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\bin\x86\Debug\net8.0\processes.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\refint\processes.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\processes.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\processes.threads\processes\obj\x86\Debug\net8.0\ref\processes.dll

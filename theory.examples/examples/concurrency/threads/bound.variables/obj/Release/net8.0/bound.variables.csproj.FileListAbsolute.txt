@@ -1,0 +1,14 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.dll.config
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\bin\Release\net8.0\bound.variables.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\refint\bound.variables.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\bound.variables.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\threads\bound.variables\obj\Release\net8.0\ref\bound.variables.dll

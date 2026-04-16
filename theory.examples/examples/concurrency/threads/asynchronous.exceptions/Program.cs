@@ -16,6 +16,7 @@ namespace TPP.Concurrency.Threads {
                 // * This catch is not executed
                 Console.WriteLine("The exception is handled.");
             }
+
             // * After 0.5 seconds, the unhandled exception makes the
             //   application terminate abnormally (the exception is thrown and 
             //   it is not handled)

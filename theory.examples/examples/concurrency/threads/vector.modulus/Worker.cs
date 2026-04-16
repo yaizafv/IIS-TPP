@@ -1,10 +1,12 @@
 ﻿
-namespace TPP.Concurrency.Threads {
+namespace TPP.Concurrency.Threads
+{
 
     /// <summary>
     /// Computes the addition of the square values of part of a vector
     /// </summary>
-    internal class Worker {
+    internal class Worker
+    {
 
         /// <summary>
         /// The vector whose modulus is going to be computed.
@@ -22,11 +24,13 @@ namespace TPP.Concurrency.Threads {
         /// </summary>
         private long result;
 
-        internal long Result {
+        internal long Result
+        {
             get { return this.result; }
         }
 
-        internal Worker(short[] vector, int fromIndex, int toIndex) {
+        internal Worker(short[] vector, int fromIndex, int toIndex)
+        {
             this.vector = vector;
             this.fromIndex = fromIndex;
             this.toIndex = toIndex;
@@ -35,9 +39,10 @@ namespace TPP.Concurrency.Threads {
         /// <summary>
         /// Method that computes the addition of the squares
         /// </summary>
-        internal void Compute() {
+        internal void Compute()
+        {
             this.result = 0;
-            for(int i= this.fromIndex; i<=this.toIndex; i++)
+            for (int i = this.fromIndex; i <= this.toIndex; i++)
                 this.result += this.vector[i] * this.vector[i];
         }
 

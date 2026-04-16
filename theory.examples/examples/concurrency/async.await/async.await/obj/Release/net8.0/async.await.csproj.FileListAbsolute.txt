@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\bin\Release\net8.0\async.await.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\bin\Release\net8.0\async.await.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\bin\Release\net8.0\async.await.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\bin\Release\net8.0\async.await.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\bin\Release\net8.0\async.await.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\refint\async.await.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\async.await.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\async.await\async.await\obj\Release\net8.0\ref\async.await.dll
