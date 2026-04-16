@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HilosBasico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4435f8148e4a3f201ed62d6b06456ef38115b850")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a04f0885bf5d95305eff49be53d5f13f111168f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HilosBasico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HilosBasico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
