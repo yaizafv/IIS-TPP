@@ -1,0 +1,7 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\bin\Release\net9.0\.msCoverageSourceRootsMapping_LinkedListGenericaTest
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.csproj.AssemblyReference.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenericaTest\obj\Release\net9.0\LinkedListGenericaTest.sourcelink.json

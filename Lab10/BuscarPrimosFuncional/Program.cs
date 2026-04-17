@@ -16,7 +16,7 @@ class Program
             int inicio = i * 20 + 2;
             int fin = i * 20 + 21;
             int id = i + 1;
-            hilos[i] = new Thread(() => BuscarPrimosFuncional(inicio, fin, $"Hilo buscador {id}"));
+            hilos[i] = new Thread(() => BuscarPrimosFuncional(inicio, fin, id));
             hilos[i].Start();
         }
 
@@ -24,7 +24,7 @@ class Program
             hilos[i].Join();
     }
 
-    public static void BuscarPrimosFuncional(int inicio, int fin, string nombreHilo)
+    public static void BuscarPrimosFuncional(int inicio, int fin, int id)
     {
         var sb = new System.Text.StringBuilder();
         for (int n = inicio; n <= fin; n++)
@@ -32,7 +32,7 @@ class Program
             if (EsPrimo(n))
                 sb.Append(n).Append(' ');
         }
-        Console.WriteLine($"[{nombreHilo}] Primos en [{inicio}, {fin}]: {sb}");
+        Console.WriteLine($"[{id}] Primos en [{inicio}, {fin}]: {sb}");
     }
 
     private static bool EsPrimo(int n)

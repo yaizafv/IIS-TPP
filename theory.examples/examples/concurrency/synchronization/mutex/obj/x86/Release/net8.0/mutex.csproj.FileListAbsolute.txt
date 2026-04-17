@@ -1,0 +1,13 @@
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\bin\x86\Release\net8.0\mutex.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\bin\x86\Release\net8.0\mutex.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\bin\x86\Release\net8.0\mutex.runtimeconfig.json
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\bin\x86\Release\net8.0\mutex.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\bin\x86\Release\net8.0\mutex.pdb
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.csproj.CoreCompileInputs.cache
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.sourcelink.json
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\refint\mutex.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\mutex.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\mutex\obj\x86\Release\net8.0\ref\mutex.dll

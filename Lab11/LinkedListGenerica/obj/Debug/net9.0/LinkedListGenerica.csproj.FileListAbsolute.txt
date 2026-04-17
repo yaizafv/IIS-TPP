@@ -1,0 +1,12 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\bin\Debug\net9.0\LinkedListGenerica.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\bin\Debug\net9.0\LinkedListGenerica.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\bin\Debug\net9.0\LinkedListGenerica.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\refint\LinkedListGenerica.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\LinkedListGenerica.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\LinkedListGenerica\obj\Debug\net9.0\ref\LinkedListGenerica.dll

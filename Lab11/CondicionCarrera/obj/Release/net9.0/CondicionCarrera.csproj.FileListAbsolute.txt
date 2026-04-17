@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\bin\Release\net9.0\CondicionCarrera.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\bin\Release\net9.0\CondicionCarrera.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\bin\Release\net9.0\CondicionCarrera.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\bin\Release\net9.0\CondicionCarrera.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\bin\Release\net9.0\CondicionCarrera.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\refint\CondicionCarrera.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\CondicionCarrera.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\CondicionCarrera\obj\Release\net9.0\ref\CondicionCarrera.dll

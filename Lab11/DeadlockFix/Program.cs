@@ -5,7 +5,7 @@ public class Program
 
     public static void Main()
     {
-        decimal cantidadInicial = 30000;
+        decimal cantidadInicial = 20;
         Cuenta cuentaA = new Cuenta("A", cantidadInicial), cuentaB = new Cuenta("B", cantidadInicial);
 
         Random random = new Random();
@@ -44,7 +44,8 @@ public class Program
         //      lock (primera) { lock (segunda) { .... }}  
         //
         // ¿Qué tienen en común todas las cuentas que nos permita 
-        // decidir siempre cuál debe bloquearse antes?
+        // decidir siempre cuál debe bloquearse antes?  
+        // El numero de cuenta
     }
 
     private static void Transferir(Cuenta cuentaA, Cuenta cuentaB, decimal cantidad)

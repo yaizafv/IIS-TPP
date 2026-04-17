@@ -1,0 +1,13 @@
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\bin\x86\Release\net8.0\semaphore.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\bin\x86\Release\net8.0\semaphore.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\bin\x86\Release\net8.0\semaphore.runtimeconfig.json
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\bin\x86\Release\net8.0\semaphore.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\bin\x86\Release\net8.0\semaphore.pdb
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.csproj.CoreCompileInputs.cache
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.sourcelink.json
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\refint\semaphore.dll
+c:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\semaphore.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\semaphore\obj\x86\Release\net8.0\ref\semaphore.dll

@@ -19,7 +19,7 @@ class Program
     public static void BusquedaMultihiloLock()
     {
 
-        object syncLock = new object();     // hay que declararlo fuera del for
+        object syncLock = new object();     // hay que declararlo fuera del for porque si no se crearia uno por hilo y por tanto no se bloqueria nada
 
         int recuentoMultihilo = 0;
         Thread[] hilos = new Thread[numHilos];
@@ -97,7 +97,6 @@ class Program
         int recuentoMultihilo = 0;
         Thread[] hilos = new Thread[numHilos];
         object obj = new object();
-        int[] array = new int[numHilos];
         for (int i = 0; i < hilos.Length; i++)
         {
             int inicio = i * vector.Length / hilos.Length;
@@ -115,10 +114,7 @@ class Program
                         contador++;
                     }
                 }
-                lock (obj)
-                {
-                    recuentoMultihilo += contador;
-                }
+                Interlocked.Add(ref recuentoMultihilo, contador);
             });
             hilos[i].Start();
         }

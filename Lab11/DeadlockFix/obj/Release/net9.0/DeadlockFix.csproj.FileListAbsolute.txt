@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\bin\Release\net9.0\DeadlockFix.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\bin\Release\net9.0\DeadlockFix.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\bin\Release\net9.0\DeadlockFix.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\bin\Release\net9.0\DeadlockFix.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\bin\Release\net9.0\DeadlockFix.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\refint\DeadlockFix.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\DeadlockFix.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\DeadlockFix\obj\Release\net9.0\ref\DeadlockFix.dll

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KdEJ7bOoJOE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yaiza\\OneDrive - Universidad de Oviedo\\Escritorio\\TPP\\IIS-TPP\\theory.examples\\examples\\concurrency\\synchronization\\synchronized.colors\\synchronized.colors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yaiza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\yaiza\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\yaiza\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\yaiza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\yaiza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\yaiza\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\8.0.23\\microsoft.netcore.app.host.win-x86.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

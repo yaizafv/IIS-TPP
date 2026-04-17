@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuscarPrimosFuncional")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a04f0885bf5d95305eff49be53d5f13f111168f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2bb778440f50f2d23f25b2c3c5f81316bd13378")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuscarPrimosFuncional")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuscarPrimosFuncional")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

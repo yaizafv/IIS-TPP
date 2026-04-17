@@ -1,0 +1,13 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\bin\x86\Debug\net8.0\non.synchronized.colors.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\bin\x86\Debug\net8.0\non.synchronized.colors.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\bin\x86\Debug\net8.0\non.synchronized.colors.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\bin\x86\Debug\net8.0\non.synchronized.colors.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\bin\x86\Debug\net8.0\non.synchronized.colors.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\refint\non.synchronized.colors.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\non.synchronized.colors.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\theory.examples\examples\concurrency\synchronization\non.synchronized.colors\obj\x86\Debug\net8.0\ref\non.synchronized.colors.dll

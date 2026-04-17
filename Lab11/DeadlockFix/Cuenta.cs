@@ -2,7 +2,7 @@ using System;
 
 namespace DeadlockFix;
 
-public class Cuenta
+public class Cuenta : IComparable<Cuenta>
 {
     private readonly object _object = new object();
     private decimal _balance;
@@ -23,6 +23,7 @@ public class Cuenta
     /// </summary>
     public bool Extraer(decimal cantidad)
     {
+        // si solo se pudiera hacer la operacion Transferir, podriamos quitar estos lock. Pero lo normal es que alguien quiera ingresar o extraer directamente
         lock (_object)      // al estar bloqueando con el mismo objeto no se puede extraer e ingresar a la vez
         {
             if (_balance < cantidad)    // el if tiene que estar dentro del lock porque balance es un recurso que se modifica concurrentemente
@@ -38,10 +39,9 @@ public class Cuenta
     /// </summary>
     public void Ingresar(decimal cantidad)
     {
-        lock (_object)
-            this._balance += cantidad;      //balance es el recurso compartido
+        lock (_object)                      
+            this._balance += cantidad;      // balance es el recurso compartido
     }
-
 
     /// <summary>
     /// Transfiere dinero de la cuenta actual (this) a la cuenta pasada como parámetro.
@@ -52,14 +52,29 @@ public class Cuenta
     public bool Transferir(Cuenta destino, decimal cantidad)
     {
         Thread.Sleep(100); // Simulamos procesamiento.
-                           // problema: no todos los hilos se ejecutan a la vez. Solucion: coger los locks en un orden predeterminado
-        if (this.Extraer(cantidad))
+        // problema: no todos los hilos se ejecutan a la vez. Solucion: coger los locks en un orden predeterminado
+        Cuenta primera = this.CompareTo(destino) < 0 ? this : destino;
+        Cuenta segunda = primera == this ? destino : this;
+        lock(primera)
         {
-            destino.Ingresar(cantidad);
-            return true;
+            lock(segunda)
+            {
+                if (this.Extraer(cantidad))
+                {
+                    destino.Ingresar(cantidad);
+                    return true;
+                }
+                else
+                    return false;
+            }
         }
-        else
-            return false;
+    }
+
+    public int CompareTo(Cuenta? other)
+    {
+        if (other == null)
+            return 1;
+        return this._numCuenta.CompareTo(other._numCuenta);
     }
 }
 
