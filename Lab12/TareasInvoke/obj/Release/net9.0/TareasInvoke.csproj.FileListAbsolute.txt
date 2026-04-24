@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.exe
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\refint\TareasInvoke.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\ref\TareasInvoke.dll

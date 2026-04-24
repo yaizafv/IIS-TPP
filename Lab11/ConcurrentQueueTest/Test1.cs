@@ -81,4 +81,11 @@ public sealed class Test1
 
         Assert.AreEqual(1, queue.Count);
     }
+
+    [TestMethod]
+    public void DequeueEmptyQueue()
+    {
+        ConcurrentQueue<int> queue = new ConcurrentQueue<int>();
+        Assert.ThrowsException<IndexOutOfRangeException>(() => queue.Dequeue());
+    }
 }

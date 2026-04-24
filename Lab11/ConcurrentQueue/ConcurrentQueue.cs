@@ -1,5 +1,6 @@
 namespace ConcurrentQueue;
 
+using System.ComponentModel;
 using LinkedListGenerica;
 public class ConcurrentQueue<T>
 {
@@ -43,7 +44,7 @@ public class ConcurrentQueue<T>
         {
             if (Count == 0)
             {
-                throw new IndexOutOfRangeException("Empty queue");
+                throw new InvalidOperationException("Empty queue");
             }
             T item = linkedList.ElementAt(0);
             linkedList.RemoveAt(0);
@@ -57,9 +58,25 @@ public class ConcurrentQueue<T>
         {
             if (Count == 0)
             {
-                throw new IndexOutOfRangeException("Empty queue");
+                throw new InvalidOperationException("Empty queue");
             }
+            // if(TryPeek(out T valor))
             return linkedList.ElementAt(0);
+        }
+    }
+
+    //para evitar trabajar con excepciones
+    bool TryPeek(out T valor)
+    {
+        lock(obj)
+        {
+            if(Count == 0)
+            {
+                valor = default;
+                return false;
+            }
+            valor = linkedList.ElementAt(0);
+            return true;
         }
     }
 }

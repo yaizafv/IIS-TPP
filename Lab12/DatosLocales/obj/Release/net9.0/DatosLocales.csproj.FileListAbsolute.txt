@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\bin\Release\net9.0\DatosLocales.exe
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\bin\Release\net9.0\DatosLocales.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\bin\Release\net9.0\DatosLocales.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\bin\Release\net9.0\DatosLocales.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\bin\Release\net9.0\DatosLocales.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\refint\DatosLocales.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\DatosLocales.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosLocales\obj\Release\net9.0\ref\DatosLocales.dll

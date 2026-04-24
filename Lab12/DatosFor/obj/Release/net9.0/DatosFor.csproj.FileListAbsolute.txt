@@ -1,0 +1,17 @@
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.exe
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\bin\Release\net9.0\SixLabors.ImageSharp.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.AssemblyReference.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.Up2Date
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\refint\DatosFor.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\ref\DatosFor.dll

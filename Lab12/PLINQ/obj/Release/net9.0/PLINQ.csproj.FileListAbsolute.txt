@@ -1,0 +1,14 @@
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\bin\Release\net9.0\PLINQ.exe
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\bin\Release\net9.0\PLINQ.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\bin\Release\net9.0\PLINQ.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\bin\Release\net9.0\PLINQ.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\bin\Release\net9.0\PLINQ.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\refint\PLINQ.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\PLINQ.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\PLINQ\obj\Release\net9.0\ref\PLINQ.dll

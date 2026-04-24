@@ -1,0 +1,17 @@
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\DatosForeach.exe
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\DatosForeach.deps.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\DatosForeach.runtimeconfig.json
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\DatosForeach.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\DatosForeach.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.csproj.AssemblyReference.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.AssemblyInfoInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.AssemblyInfo.cs
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.csproj.CoreCompileInputs.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosFor.6E2DC45A.Up2Date
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\refint\DatosForeach.dll
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.pdb
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\DatosForeach.genruntimeconfig.cache
+C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Debug\net9.0\ref\DatosForeach.dll

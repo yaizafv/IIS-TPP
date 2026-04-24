@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListGenericaTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a9caf24942d376625167f7a64f40cd88209e8e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14e164437d30b68f086cd90a284c2e7c4e68e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListGenericaTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListGenericaTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
