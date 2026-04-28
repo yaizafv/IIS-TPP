@@ -18,7 +18,7 @@ class Program
         //EjemploHilosConDelegados();
         EjemploHilosConLambdas();
 
-        // Implementa una versión funcional del ejemplo de HilosPOO -> BuscarPrimoFuncional
+        // Implementa una versión funcional del ejemplo de HilosPOO
         EjemploBuscarPrimosFuncional();
     }
 
