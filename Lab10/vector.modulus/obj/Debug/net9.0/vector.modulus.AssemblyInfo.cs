@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vector.modulus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4435f8148e4a3f201ed62d6b06456ef38115b850")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77c20bc6065c0b33ceb660e423b42b6feeee1f64")]
 [assembly: System.Reflection.AssemblyProductAttribute("vector.modulus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vector.modulus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

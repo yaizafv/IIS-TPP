@@ -1,4 +1,6 @@
-﻿namespace HilosFuncional;
+﻿using System.Text;
+
+namespace HilosFuncional;
 
 
 class Program
@@ -16,7 +18,8 @@ class Program
         //EjemploHilosConDelegados();
         EjemploHilosConLambdas();
 
-        // Implementa una versión funcional del ejemplo de HilosPOO
+        // Implementa una versión funcional del ejemplo de HilosPOO -> BuscarPrimoFuncional
+        EjemploBuscarPrimosFuncional();
     }
 
     public static void EjemploHilosConDelegados()
@@ -76,6 +79,52 @@ class Program
         Console.WriteLine($"[ID={Thread.CurrentThread.ManagedThreadId}] Obteniendo datos del destino: {valor}");
         Thread.Sleep(2000); //Simulamos carga de trabajo
         Console.WriteLine($"[ID={Thread.CurrentThread.ManagedThreadId}] Datos obtenidos y almacenados.");
+    }
+
+    public static void EjemploBuscarPrimosFuncional()
+    {
+        int numBuscadores = 4;
+        Thread[] hilos = new Thread[numBuscadores];
+        for (int i = 0; i < numBuscadores; i++)
+        {
+            int inicio = i * 20 + 2;
+            int fin = i * 20 + 21;
+            int id = i + 1;
+            hilos[i] = new Thread(() => BuscarPrimosFuncional(inicio, fin, id));
+        }
+
+        for (int i = 0; i < hilos.Length; i++)
+        {
+            hilos[i].Start();
+        }
+
+        for (int i = 0; i < hilos.Length; i++)
+        {
+            hilos[i].Join();
+        }
+    }
+
+    public static void BuscarPrimosFuncional(int inicio, int fin, int id)
+    {
+        StringBuilder sb = new StringBuilder();
+        for (int n = inicio; n <= fin; n++)
+        {
+            if (EsPrimo(n))
+                sb.Append(n).Append(' ');
+        }
+        Console.WriteLine($"[{id}] Primos en [{inicio}, {fin}]: {sb}");
+    }
+
+    private static bool EsPrimo(int n)
+    {
+        if (n < 2)
+            return false;
+
+        for (int i = 2; i * i <= n; i++)
+            if (n % i == 0)
+                return false;
+
+        return true;
     }
 }
 
