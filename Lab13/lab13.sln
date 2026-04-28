@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05fooddelivery", "fooddeliv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04channel", "channel\04channel.csproj", "{EE05F317-112D-47C4-9045-4A9204FF2D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fooddeliverySolved", "fooddeliverySolved\fooddeliverySolved.csproj", "{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,18 +83,6 @@ Global
 		{EE05F317-112D-47C4-9045-4A9204FF2D3A}.Release|x64.Build.0 = Release|Any CPU
 		{EE05F317-112D-47C4-9045-4A9204FF2D3A}.Release|x86.ActiveCfg = Release|Any CPU
 		{EE05F317-112D-47C4-9045-4A9204FF2D3A}.Release|x86.Build.0 = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|x64.Build.0 = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Debug|x86.Build.0 = Debug|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|x64.ActiveCfg = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|x64.Build.0 = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|x86.ActiveCfg = Release|Any CPU
-		{992B3EB1-729F-4A1F-A027-2D847F0E8ABD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
