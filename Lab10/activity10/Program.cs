@@ -7,28 +7,33 @@ class Program
     static void Main(string[] args)
     {
         var data = activity10.Utils.GetBitcoinData();
-        foreach (var d in data)
-            Console.WriteLine(d);
+
         double threshold = 7000.0;
         int maxThreads = 50;
 
-        Console.WriteLine("Hilos;Repeticion;Ticks");
+        Console.WriteLine("Hilos;Ejecucion;Ticks");
 
         for (int numHilos = 1; numHilos <= maxThreads; numHilos++)
         {
-            for (int rep = 1; rep <= 15; rep++)
+            long sumaTicks = 0;
+            for (int ejecucion = 1; ejecucion <= 15; ejecucion++)
             {
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
 
                 BitcoinMaster master = new BitcoinMaster(data, numHilos, threshold);
 
-                Stopwatch sw = Stopwatch.StartNew();
+                DateTime before = DateTime.Now;
                 master.ComputeCount();
-                sw.Stop();
+                DateTime after = DateTime.Now;
 
-                Console.WriteLine($"{numHilos};{rep};{sw.ElapsedTicks}");
+                sumaTicks += (after - before).Ticks;
+
+                Console.WriteLine($"{numHilos};{ejecucion};{(after - before).Ticks}");      //MasterWorker.exe >> datos.csv
             }
+            long media = sumaTicks / 15;
+            Console.WriteLine("Media Ticks: ");
+            Console.WriteLine($"{numHilos};{media}");
         }
     }
 }

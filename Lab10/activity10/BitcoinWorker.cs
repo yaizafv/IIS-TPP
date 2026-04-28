@@ -10,7 +10,10 @@ public class BitcoinWorker
     private double threshold;
     private int result;
 
-    internal int Result => this.result;
+    internal int Result
+    {
+        get { return this.result; }
+    }
 
     internal BitcoinWorker(BitcoinValueData[] data, int inicio, int fin, double threshold)
     {

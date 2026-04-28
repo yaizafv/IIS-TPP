@@ -11,8 +11,14 @@ class Program
 
     static void Main()
     {
-        //short[] v1 = new short[] { 2, 2, 1, 3, 2, 2, 1, 2, 1, 2, 2, 1 };
-        //short[] v2 = new short[] { 2, 2, 1 };
+        short[] v1 = new short[] { 2, 2, 1, 3, 2, 2, 1, 2, 1, 2, 2, 1 };
+        short[] v2 = new short[] { 2, 2, 1 };
+        int numHilos = 1;
+        Master master = new Master(v1, v2, numHilos);
+        DateTime before = DateTime.Now;
+        double result = master.Concurrences();
+        DateTime after = DateTime.Now;
+        Console.WriteLine("The result obtained with {0} threads is: {1}.", numHilos, result);
 
         //Probarlo posteriormente con dos aleatorios.
         //short[] v1 = CrearVectorAleatorio(1000, 0, 4);

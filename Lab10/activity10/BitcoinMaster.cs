@@ -11,7 +11,7 @@ public class BitcoinMaster
     public BitcoinMaster(BitcoinValueData[] data, int numberOfThreads, double threshold)
     {
         if (numberOfThreads < 1 || numberOfThreads > data.Length)
-            throw new ArgumentException("Número de hilos no válido.");
+            throw new InvalidDataException("Número de hilos no válido.");
         this.data = data;
         this.numberOfThreads = numberOfThreads;
         this.threshold = threshold;
@@ -24,9 +24,8 @@ public class BitcoinMaster
 
         for (int i = 0; i < this.numberOfThreads; i++)
         {
-            int from = i * elementsPerThread;
-            int to = (i == this.numberOfThreads - 1) ? this.data.Length - 1 : (i + 1) * elementsPerThread - 1;
-            workers[i] = new BitcoinWorker(this.data, from, to, this.threshold);
+            workers[i] = new BitcoinWorker(this.data, i * elementsPerThread, 
+            (i == this.numberOfThreads - 1) ? this.data.Length - 1 : (i + 1) * elementsPerThread - 1, this.threshold);
         }
 
         Thread[] threads = new Thread[workers.Length];

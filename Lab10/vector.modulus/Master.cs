@@ -37,12 +37,12 @@ namespace TPP.Concurrency.Threads
             // * Workers are created
             Worker[] workers = new Worker[this.numberOfThreads];
             int elementsPerThread = this.vector.Length / numberOfThreads;
-            
+
             for (int i = 0; i < this.numberOfThreads; i++)
                 workers[i] = new Worker(this.vector,
                     i * elementsPerThread,
                     (i < this.numberOfThreads - 1) ? (i + 1) * elementsPerThread - 1 : this.vector.Length - 1 // last one
-                    );
+                );
 
             // * Threads are concurrently started
             Thread[] threads = new Thread[workers.Length];

@@ -15,8 +15,8 @@ class Program
 
     static void Main()
     {
-        //EjemploHilosConDelegados();
-        EjemploHilosConLambdas();
+        EjemploHilosConDelegados();
+        //EjemploHilosConLambdas();
 
         // Implementa una versión funcional del ejemplo de HilosPOO
         EjemploBuscarPrimosFuncional();
@@ -34,7 +34,6 @@ class Program
 
         for (int i = 0; i < hilos.Length; i++)
             hilos[i].Join();
-
 
         Action<object?> obtenerDatos = valor =>
         {

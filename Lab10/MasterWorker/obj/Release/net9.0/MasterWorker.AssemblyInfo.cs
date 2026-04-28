@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2bb778440f50f2d23f25b2c3c5f81316bd13378")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76be8d52c6d5d3d15bd6a00a6f7217b22fddf72e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
