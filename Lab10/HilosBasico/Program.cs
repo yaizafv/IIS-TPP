@@ -4,7 +4,6 @@ class Program
 {
     static void Main()
     {
-
         Thread hilo = new Thread(Tarea);        //crea un hilo secundario
         hilo.Name = "Hilo 1";
         hilo.Priority = ThreadPriority.AboveNormal;
