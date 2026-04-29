@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CondicionCarreraFix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cc143db2d5089c7320f8a9535539e486f3ef985")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ab41df2b0fde9f4b2c48584663609bf1ff0d91")]
 [assembly: System.Reflection.AssemblyProductAttribute("CondicionCarreraFix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CondicionCarreraFix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

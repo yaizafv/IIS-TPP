@@ -151,27 +151,31 @@ class Program
         object obj = new object();
 
         Parallel.ForEach(palabras,
-            // Inicializador de variable local (cada hilo crea su propio dic vacio)
+            // Inicializador de variable local (cada hilo crea su propio diccionario)
             () => new Dictionary<string, int>(),
 
-            // El hilo trabaja con su 'localDict' privado
-            (palabra, state, localDict) =>
+            // El hilo trabaja con su diccionario
+            (palabra, state, localDicc) =>
             {
                 string word = palabra.ToLower();
-                if (localDict.ContainsKey(word)) localDict[word]++;
-                else localDict[word] = 1;
-                return localDict; // Pasa el diccionario al siguiente paso
+                if (localDicc.ContainsKey(word))
+                    localDicc[word]++;
+                else
+                    localDicc[word] = 1;
+                return localDicc; // Pasa el diccionario al siguiente paso
             },
 
-            // Cuando termina, suma su resultado al global
-            (localDict) =>
+            // cuando acaba suma su resultado al global
+            (localDicc) =>
             {
                 lock (obj)
                 {
-                    foreach (var palabra in localDict)
+                    foreach (var palabra in localDicc)
                     {
-                        if (palabrasContadas.ContainsKey(palabra.Key)) palabrasContadas[palabra.Key] += palabra.Value;
-                        else palabrasContadas[palabra.Key] = palabra.Value;
+                        if (palabrasContadas.ContainsKey(palabra.Key))
+                            palabrasContadas[palabra.Key] += palabra.Value;
+                        else
+                            palabrasContadas[palabra.Key] = palabra.Value;
                     }
                 }
             });
