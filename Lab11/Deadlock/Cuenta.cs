@@ -48,7 +48,7 @@ public class Cuenta
     {
         lock (this) // this no suele ser una buena idea porque se puede bloquear desde fuera de la clase.        this será A o B
         {
-            lock (destino)      // A o B
+            lock (destino)      // A o B            
             {
                 Thread.Sleep(100); // Simulamos procesamiento.
                 if (this.Extraer(cantidad))

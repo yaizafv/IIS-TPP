@@ -1,0 +1,15 @@
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\bin\Release\net9.0\ProductorConsumidor.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\bin\Release\net9.0\ProductorConsumidor.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\bin\Release\net9.0\ProductorConsumidor.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\bin\Release\net9.0\ProductorConsumidor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\bin\Release\net9.0\ProductorConsumidor.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\refint\ProductorConsumidor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ProductorConsumidor.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab11\ProductorConsumidor\obj\Release\net9.0\ref\ProductorConsumidor.dll
