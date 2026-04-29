@@ -8,189 +8,143 @@ class Program
 {
     static void Main(string[] args)
     {
-        string texto = ProcesadorTextos.LeerFicheroTexto("../../../../clarin.txt");
+        String text = ProcesadorTextos.LeerFicheroTexto(@"..\..\..\..\clarin.txt");
+        string[] palabras = ProcesadorTextos.DividirEnPalabras(text);
 
-        string[] lineas = texto.Split('\n', System.StringSplitOptions.RemoveEmptyEntries);
 
-        Console.WriteLine($"Fichero leído: {lineas.Length} líneas.\n");
-        Console.WriteLine("=== CONTEO DE APARICIONES DE PALABRAS ===\n");
 
-        var resultadoSecuencial = ContarSecuencial(lineas);
-        var resultadoFor = ContarParaleloFor(lineas);
-        var resultadoForEach = ContarParaleloForEach(lineas);
-        var resultadoForEachLocales = ContarParaleloForEachLocales(lineas);
-
-        // Verificamos que todas las versiones producen el mismo resultado
-        Console.WriteLine("\n=== VERIFICACIÓN DE CONSISTENCIA ===");
-        Console.WriteLine($"Secuencial == For            : {DiccionariosIguales(resultadoSecuencial, resultadoFor)}");
-        Console.WriteLine($"Secuencial == ForEach        : {DiccionariosIguales(resultadoSecuencial, resultadoForEach)}");
-        Console.WriteLine($"Secuencial == ForEach Locales: {DiccionariosIguales(resultadoSecuencial, resultadoForEachLocales)}");
-
-        // Top 10 palabras más frecuentes
-        Console.WriteLine("\n=== TOP 10 PALABRAS MÁS FRECUENTES ===");
-        foreach (var kv in resultadoSecuencial.OrderByDescending(kv => kv.Value).Take(10))
-            Console.WriteLine($"  \"{kv.Key}\" -> {kv.Value} veces");
+        if (args.Length > 0 && args[0] == "local")
+            ContarPalabrasLocal(palabras);
+        else if (args.Length > 0 && args[0] == "plinq")
+            ContarPalabrasPLinq(palabras);
+        else if (args.Length > 0 && args[0] == "for")
+            ContarPalabrasFor(palabras);
+        else if (args.Length > 0 && args[0] == "foreach")
+            ContarPalabrasForEach(palabras);
+        else
+            ContarPalabrasSecuencial(palabras);
     }
 
-
-    // -------------------------------------------------------------------------
-    // 1. VERSIÓN SECUENCIAL
-    //    foreach normal sobre las líneas.
-    //    Usamos DividirEnPalabras de ProcesadorTextos en cada línea.
-    //    Dictionary ordinario (no thread-safe), válido al ser un único hilo.
-    // -------------------------------------------------------------------------
-    static Dictionary<string, int> ContarSecuencial(string[] lineas)
+    public static void ContarPalabrasSecuencial(string[] palabras)
     {
-        Dictionary<string, int> conteo = new Dictionary<string, int>(System.StringComparer.OrdinalIgnoreCase);
-
         Stopwatch sw = Stopwatch.StartNew();
-
-        foreach (string linea in lineas)
+        Dictionary<string, int> palabrasContadas = palabras
+        .GroupBy(word => word.ToLower())
+        .ToDictionary(
+            group => group.Key,
+            group => group.Count()
+        );
+        sw.Stop();
+        Console.WriteLine($"[Secuencial] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        foreach (var palabra in palabrasContadas)
         {
-            foreach (string palabra in ProcesadorTextos.DividirEnPalabras(linea))
-            {
-                if (conteo.TryGetValue(palabra, out int count))
-                    conteo[palabra] = count + 1;
-                else
-                    conteo[palabra] = 1;
-            }
+            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
         }
-
-        sw.Stop();
-        MostrarResumen("Secuencial (foreach)", conteo, sw.ElapsedMilliseconds);
-        return conteo;
     }
 
-
-    // -------------------------------------------------------------------------
-    // 2. VERSIÓN PARALELA CON Parallel.For
-    //    Paralelizamos por índice de línea.
-    //    ConcurrentDictionary es thread-safe: AddOrUpdate es atómica.
-    //    Problema: contención alta en palabras frecuentes (muchos hilos tocan las mismas claves).
-    // -------------------------------------------------------------------------
-    static Dictionary<string, int> ContarParaleloFor(string[] lineas)
+    public static void ContarPalabrasPLinq(string[] words)
     {
-        ConcurrentDictionary<string, int> conteo =
-            new ConcurrentDictionary<string, int>(System.StringComparer.OrdinalIgnoreCase);
-
         Stopwatch sw = Stopwatch.StartNew();
-
-        Parallel.For(0, lineas.Length, i =>
+        Dictionary<string, int> palabrasContadas = words.AsParallel()
+            .GroupBy(word => word.ToLower())
+            .ToDictionary(
+                group => group.Key,
+                group => group.Count()
+            );
+        sw.Stop();
+        Console.WriteLine($"[PLinq] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        foreach (var palabra in palabrasContadas)
         {
-            foreach (string palabra in ProcesadorTextos.DividirEnPalabras(lineas[i]))
+            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        }
+    }
+
+    public static void ContarPalabrasForEach(string[] palabras)
+    {
+        Stopwatch sw = Stopwatch.StartNew();
+        Dictionary<string, int> palabrasContadas = new Dictionary<string, int>();
+        object obj = new object();
+        Parallel.ForEach(palabras, palabra =>
+        {
+            string word = palabra.ToLower();
+            lock (obj)
             {
-                // AddOrUpdate: inserta 1 si no existe, o suma 1 si ya existe. Operación atómica.
-                conteo.AddOrUpdate(palabra, 1, (_, valorActual) => valorActual + 1);
+                if (palabrasContadas.ContainsKey(word))
+                    palabrasContadas[word]++;
+                else
+                    palabrasContadas[word] = 1;
             }
         });
-
         sw.Stop();
-        MostrarResumen("Parallel.For + ConcurrentDictionary", conteo, sw.ElapsedMilliseconds);
-        return new Dictionary<string, int>(conteo, System.StringComparer.OrdinalIgnoreCase);
+        Console.WriteLine($"[ForEach] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        foreach (var palabra in palabrasContadas)
+        {
+            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        }
     }
 
-
-    // -------------------------------------------------------------------------
-    // 3. VERSIÓN PARALELA CON Parallel.ForEach
-    //    Igual que la anterior pero más natural: itera directamente sobre las líneas
-    //    sin necesitar el índice. Misma contención que la versión con For.
-    // -------------------------------------------------------------------------
-    static Dictionary<string, int> ContarParaleloForEach(string[] lineas)
+    public static void ContarPalabrasFor(string[] palabras)
     {
-        ConcurrentDictionary<string, int> conteo =
-            new ConcurrentDictionary<string, int>(System.StringComparer.OrdinalIgnoreCase);
-
         Stopwatch sw = Stopwatch.StartNew();
+        Dictionary<string, int> palabrasContadas = new Dictionary<string, int>();
+        object obj = new object();
 
-        Parallel.ForEach(lineas, linea =>
+        Parallel.For(0, palabras.Length, i =>
         {
-            foreach (string palabra in ProcesadorTextos.DividirEnPalabras(linea))
+            string word = palabras[i].ToLower();
+            lock (obj)
             {
-                conteo.AddOrUpdate(palabra, 1, (_, valorActual) => valorActual + 1);
+                if (palabrasContadas.ContainsKey(word))
+                    palabrasContadas[word]++;
+                else
+                    palabrasContadas[word] = 1;
             }
         });
-
         sw.Stop();
-        MostrarResumen("Parallel.ForEach + ConcurrentDictionary", conteo, sw.ElapsedMilliseconds);
-        return new Dictionary<string, int>(conteo, System.StringComparer.OrdinalIgnoreCase);
+        Console.WriteLine($"[For] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        foreach (var palabra in palabrasContadas)
+        {
+            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        }
     }
 
-
-    // -------------------------------------------------------------------------
-    // 4. VERSIÓN PARALELA CON Parallel.ForEach Y DATOS LOCALES  ← MÁS ÓPTIMA
-    //    Cada partición/hilo acumula su propio Dictionary local sin ninguna contención.
-    //    El lock solo ocurre una vez por partición en la fase de fusión final,
-    //    igual que en el ejemplo de ForLocales con primos de clase.
-    // -------------------------------------------------------------------------
-    static Dictionary<string, int> ContarParaleloForEachLocales(string[] lineas)
+    public static void ContarPalabrasLocal(string[] palabras)
     {
-        Dictionary<string, int> conteoGlobal =
-            new Dictionary<string, int>(System.StringComparer.OrdinalIgnoreCase);
-        object bloqueo = new object();
-
         Stopwatch sw = Stopwatch.StartNew();
+        Dictionary<string, int> palabrasContadas = new Dictionary<string, int>();
+        object obj = new object();
 
-        Parallel.ForEach<string, Dictionary<string, int>>(
-            lineas,
+        Parallel.ForEach(palabras,
+            // Inicializador de variable local (cada hilo crea su propio dic vacio)
+            () => new Dictionary<string, int>(),
 
-            // Inicialización: cada partición arranca con su propio diccionario vacío
-            () => new Dictionary<string, int>(System.StringComparer.OrdinalIgnoreCase),
-
-            // Cuerpo: actualiza el diccionario LOCAL de la partición (sin lock, sin contención)
-            (linea, loopState, conteoLocal) =>
+            // El hilo trabaja con su 'localDict' privado
+            (palabra, state, localDict) =>
             {
-                foreach (string palabra in ProcesadorTextos.DividirEnPalabras(linea))
-                {
-                    if (conteoLocal.TryGetValue(palabra, out int count))
-                        conteoLocal[palabra] = count + 1;
-                    else
-                        conteoLocal[palabra] = 1;
-                }
-                return conteoLocal;
+                string word = palabra.ToLower();
+                if (localDict.ContainsKey(word)) localDict[word]++;
+                else localDict[word] = 1;
+                return localDict; // Pasa el diccionario al siguiente paso
             },
 
-            // Agregación final: fusiona el diccionario local en el global (con lock, una sola vez por partición)
-            conteoLocalFinal =>
+            // Cuando termina, suma su resultado al global
+            (localDict) =>
             {
-                lock (bloqueo)
+                lock (obj)
                 {
-                    foreach (var kv in conteoLocalFinal)
+                    foreach (var palabra in localDict)
                     {
-                        if (conteoGlobal.TryGetValue(kv.Key, out int count))
-                            conteoGlobal[kv.Key] = count + kv.Value;
-                        else
-                            conteoGlobal[kv.Key] = kv.Value;
+                        if (palabrasContadas.ContainsKey(palabra.Key)) palabrasContadas[palabra.Key] += palabra.Value;
+                        else palabrasContadas[palabra.Key] = palabra.Value;
                     }
                 }
-            }
-        );
+            });
 
         sw.Stop();
-        MostrarResumen("Parallel.ForEach con datos locales", conteoGlobal, sw.ElapsedMilliseconds);
-        return conteoGlobal;
-    }
-
-
-    // -------------------------------------------------------------------------
-    // UTILIDADES
-    // -------------------------------------------------------------------------
-
-    static void MostrarResumen(string nombre, IEnumerable<KeyValuePair<string, int>> conteo, long ms)
-    {
-        Console.WriteLine($"[{nombre}]");
-        Console.WriteLine($"  Tiempo           : {ms} ms");
-        Console.WriteLine($"  Palabras únicas  : {conteo.Count()}");
-        Console.WriteLine($"  Total apariciones: {conteo.Sum(kv => kv.Value)}\n");
-    }
-
-    static bool DiccionariosIguales(Dictionary<string, int> a, Dictionary<string, int> b)
-    {
-        if (a.Count != b.Count) return false;
-        foreach (var kv in a)
+        Console.WriteLine($"[Local] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        foreach (var palabra in palabrasContadas)
         {
-            if (!b.TryGetValue(kv.Key, out int val) || val != kv.Value)
-                return false;
+            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
         }
-        return true;
     }
 }

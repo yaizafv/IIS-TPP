@@ -15,3 +15,21 @@ C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Release\net9.0\refint\Datos
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.pdb
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosForeach\obj\Release\net9.0\ref\DatosForeach.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\DatosForeach.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\DatosForeach.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\DatosForeach.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\DatosForeach.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\DatosForeach.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\bin\Release\net9.0\SixLabors.ImageSharp.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.csproj.AssemblyReference.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosFor.6E2DC45A.Up2Date
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\refint\DatosForeach.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\DatosForeach.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosForeach\obj\Release\net9.0\ref\DatosForeach.dll

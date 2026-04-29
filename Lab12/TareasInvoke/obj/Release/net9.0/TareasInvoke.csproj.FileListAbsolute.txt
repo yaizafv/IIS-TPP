@@ -12,3 +12,18 @@ C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\refint\Tarea
 C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.pdb
 C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\Lab12\TareasInvoke\obj\Release\net9.0\ref\TareasInvoke.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\bin\Release\net9.0\TareasInvoke.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\refint\TareasInvoke.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\TareasInvoke.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\TareasInvoke\obj\Release\net9.0\ref\TareasInvoke.dll

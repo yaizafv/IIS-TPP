@@ -15,3 +15,21 @@ C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\refint\DatosFor.
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.pdb
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.genruntimeconfig.cache
 C:\Users\uo301762\Desktop\TPP\Lab12\DatosFor\obj\Release\net9.0\ref\DatosFor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.exe
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.deps.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.runtimeconfig.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\DatosFor.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\bin\Release\net9.0\SixLabors.ImageSharp.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.AssemblyReference.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.AssemblyInfoInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.AssemblyInfo.cs
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.CoreCompileInputs.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.sourcelink.json
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.csproj.Up2Date
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\refint\DatosFor.dll
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.pdb
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\DatosFor.genruntimeconfig.cache
+C:\Users\yaiza\OneDrive - Universidad de Oviedo\Escritorio\TPP\IIS-TPP\Lab12\DatosFor\obj\Release\net9.0\ref\DatosFor.dll

@@ -10,6 +10,10 @@ class Program
 
         if (args.Length > 0 && args[0] == "p")
             ForLocales(vector);
+        else if (args.Length > 0 && args[0] == "pp")
+            ForParalelo(vector);
+        else if (args.Length > 0 && args[0] == "ppp")
+            ForEachParalelo(vector);
         else
             ForSecuencial(vector);
 
@@ -29,14 +33,52 @@ class Program
                 posicionesGlobal.Add(i);
         }
 
-        // HACER LO DE ARRIBA CON PARARELL FOR
-
         sw.Stop();
         Console.WriteLine($"[Secuencial] {sw.ElapsedMilliseconds} ms.");
     }
 
+    static void ForParalelo(int[] vector)
+    {
+        List<int> posicionesGlobal = new List<int>();
+        Stopwatch sw = Stopwatch.StartNew();
+        object obj = new object();
+        Parallel.For(0, vector.Length, i =>
+        {
+            if (EsPrimo(vector[i]))
+            {
+                lock (obj)
+                {
+                    posicionesGlobal.Add(i);
+                }
+            }
+        });
+        sw.Stop();
+        Console.WriteLine($"[For Paralelo] {sw.ElapsedMilliseconds} ms.");
+    }
+
+    static void ForEachParalelo(int[] vector)
+    {
+        List<int> posicionesGlobal = new List<int>();
+        Stopwatch sw = Stopwatch.StartNew();
+        object obj = new object();
+        Parallel.ForEach(vector, (element) =>
+        {
+            if (EsPrimo(element))
+            {
+                lock (obj)
+                {
+                    posicionesGlobal.Add(element);
+                }
+            }
+        });
+        sw.Stop();
+        Console.WriteLine($"[ForEach Paralelo] {sw.ElapsedMilliseconds} ms.");
+    }
+
     static void ForLocales(int[] vector)
     {
+        //CON DATOS LOCALES SIEMPRE QUE HAYA RECURSOS COMPARTIDOS
+
         List<int> posicionesGlobal = new List<int>();
         object bloqueo = new object();
 
@@ -99,7 +141,4 @@ class Program
 
         return vector;
     }
-
-
-    //CON DATOS LOCALES SIEMPRE QUE HAYA RECURSOS COMPARTIDOS
 }

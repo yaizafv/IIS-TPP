@@ -27,7 +27,7 @@ class Program
         int masRepeticiones = 0, menosRepeticiones = 0, signosPuntuacion = 0;
 
         // El método Invoke de la clase Parallel se emplea en la paralelización de tareas independientes:
-        // Recibe Actions - Haciendo uso de la palabra clave params : 
+        // Recibe Actions - Haciendo uso de la palabra clave params: 
         // Esto nos permite ir pasando N parámetros separados por comas. En este caso Actions y, cada uno, es una tarea.
 
         // Las tareas pueden ejecutarse en paralelo sobre varios hilos, gestionados por TPL.
@@ -45,7 +45,7 @@ class Program
                 ,
             () =>
             {
-                contador++;     //al estar tambien aqui si que haria falta
+                //contador++;     //al estar tambien aqui si que haria falta
                 palabrasMasLargas = ProcesadorTextos.PalabrasMasLargas(palabras);
             }
             ,

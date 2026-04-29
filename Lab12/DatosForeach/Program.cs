@@ -44,8 +44,14 @@ class Program
     static void ForEachParalelo(IEnumerable<string> ficheros, string dirDestino)
     {
         Stopwatch sw = Stopwatch.StartNew();
+        HashSet<int> hilosUsados = new HashSet<int>();      //evita duplicados
+        object obj = new object();
         Parallel.ForEach(ficheros, (fichero) =>
-        {       //TPL gestiona todo menos los recursos compartidos. necesita lock (no aqui porque solo lee)
+        {   //TPL gestiona todo menos los recursos compartidos. necesita lock (no aqui porque solo lee)
+            lock (obj)
+            {
+                hilosUsados.Add(Thread.CurrentThread.ManagedThreadId);
+            }
             string nombreFichero = Path.GetFileName(fichero);
             Imprimir($"[ForEach TPL] Procesando el fichero \"{nombreFichero}\" con el hilo ID={Thread.CurrentThread.ManagedThreadId}.");
             using Image image = Image.Load(fichero);
@@ -54,6 +60,7 @@ class Program
         });
         sw.Stop();
         Console.WriteLine($"[ForEach TPL] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        Console.WriteLine($"Hilos usados: {hilosUsados.Count}");
     }
 
     [Conditional("DEBUG")]

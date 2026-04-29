@@ -62,9 +62,15 @@ class Program
         using Image<Rgba32> imgOri = Image.Load<Rgba32>(ficheroOrigen);
         using Image<Rgba32> imgDest = new Image<Rgba32>(imgOri.Width, imgOri.Height);
 
-        Parallel.For(0, imgOri.Height, y =>         //solo se paraleliza un bucle. se paraleliza el for externo CASI siempre (osea siempre xd)
+        HashSet<int> hilosUsados = new HashSet<int>();      //evita duplicados
+        object obj = new object();
+        Parallel.For(0, imgOri.Height,  y =>         //solo se paraleliza un bucle. se paraleliza el for externo CASI siempre (osea siempre xd)
         {
             //AQUI SI XD
+            lock(obj)
+            {
+                hilosUsados.Add(Thread.CurrentThread.ManagedThreadId);
+            }
             for (int x = 0; x < imgOri.Width; x++)
             {
                 Rgba32 p = imgOri[x, y];
@@ -72,13 +78,13 @@ class Program
                 imgDest[x, y] = transformar(p);
                 //NO CONTAR LOS HILOS AQUI DENTRO
             }
-            //AQUI TAMBIEN SE PUEDE
+                //AQUI TAMBIEN SE PUEDE
         });
         imgDest.Save(ficheroDest);
         sw.Stop();
         Console.WriteLine($"[For TPL] Tiempo: {sw.ElapsedMilliseconds} ms -> {ficheroDest}.");
+        Console.WriteLine($"Numero de hilos: {hilosUsados.Count}");
         // Ejercicio: Implementa el código necesario para saber cuantos hilos utiliza TPL en esta operación.
-
     }
 
     static Rgba32 PixelSepia(Rgba32 pixel)
