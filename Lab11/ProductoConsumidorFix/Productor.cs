@@ -1,6 +1,6 @@
 using System;
 
-namespace ProductorConsumidor;
+namespace ProductorConsumidorFix;
 
 class Productor
 {
@@ -20,7 +20,7 @@ class Productor
 
         while (true)
         {
-            int id = ++numeroTareasCreadas;
+            int id = Interlocked.Increment(ref numeroTareasCreadas);
             string extension = random.Next(2) == 0 ? ".docx" : ".pdf";
 
             TareaImpresion tarea = new TareaImpresion(
@@ -31,18 +31,28 @@ class Productor
                 dobleCara: random.Next(2) == 0
             );
 
-            lock (cola)
+            // Espera FUERA del lock hasta que haya hueco
+            bool insertada = false;
+            while (!insertada)
             {
-                if (cola.Count == capacidadMaxima)
-                    Thread.Sleep(100);
+                lock (cola)
+                {
+                    if (cola.Count < capacidadMaxima)
+                    {
+                        Console.WriteLine($"+ Insertando {tarea.TareaId}...");
+                        cola.Enqueue(tarea);
+                        Console.WriteLine($"+ {tarea} insertada. En cola: {cola.Count}");
+                        insertada = true;
+                    }
+                }
 
-                Console.WriteLine($"+ Insertando {tarea.TareaId}...");
-                cola.Enqueue(tarea);
-                Console.WriteLine($"+ {tarea} insertada. En cola: {cola.Count}");
+                if (!insertada)
+                    Thread.Sleep(100); // Espera FUERA del lock
             }
 
             Thread.Sleep(random.Next(500, 1000));
         }
     }
+    //sleep dentro de lock -> malo
 }
 

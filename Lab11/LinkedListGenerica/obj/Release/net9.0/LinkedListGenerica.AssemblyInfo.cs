@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListGenerica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c787a733d9855fa276c37e7f799293ec323ae8ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ae4d26ed6c73e928a35240243df0a1096a96b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListGenerica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListGenerica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

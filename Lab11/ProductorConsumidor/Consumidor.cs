@@ -17,29 +17,23 @@ public class Consumidor
 
         while (true)
         {
-            TareaImpresion tarea = null;
+            TareaImpresion tarea;
 
-            // Espera FUERA del lock hasta que haya tarea
-            while (tarea == null)
+            lock (_cola)
             {
-                lock (_cola)
-                {
-                    if (_cola.Count > 0)
-                    {
-                        Console.WriteLine("- Sacando tarea...");
-                        tarea = _cola.Dequeue();
-                        Console.WriteLine($"- Tarea obtenida: {tarea.TareaId}. En cola: {_cola.Count}");
-                    }
-                }
+                if (_cola.Count == 0)
+                    Thread.Sleep(100);
 
-                if (tarea == null)
-                    Thread.Sleep(100); // Espera FUERA del lock
+                Console.WriteLine("- Sacando tarea...");
+                tarea = _cola.Dequeue();
+                Console.WriteLine($"- Tarea obtenida: {tarea.TareaId}. En cola: {_cola.Count}");
+                int hojasImpresas = tarea.Imprimir();
+                Console.WriteLine($"Se han impreso {hojasImpresas} hojas.");
             }
-
-            int hojasImpresas = tarea.Imprimir();
-            Console.WriteLine($"Se han impreso {hojasImpresas} hojas.");
 
             Thread.Sleep(random.Next(300, 700));
         }
     }
 }
+
+
