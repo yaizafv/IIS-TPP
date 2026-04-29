@@ -15,6 +15,8 @@ class Program
             ContarPalabrasLocal(palabras);
         else if (args.Length > 0 && args[0] == "plinq")
             ContarPalabrasPLinq(palabras);
+        else if (args.Length > 0 && args[0] == "plinqlocales")
+            ContarPalabrasPLinqLocales(palabras);
         else if (args.Length > 0 && args[0] == "for")
             ContarPalabrasFor(palabras);
         else if (args.Length > 0 && args[0] == "foreach")
@@ -40,17 +42,53 @@ class Program
         // }
     }
 
-    public static void ContarPalabrasPLinq(string[] words)
+    public static void ContarPalabrasPLinq(string[] palabras)
     {
         Stopwatch sw = Stopwatch.StartNew();
-        Dictionary<string, int> palabrasContadas = words.AsParallel()
-            .GroupBy(word => word.ToLower())
+        Dictionary<string, int> palabrasContadas = palabras.AsParallel()
+            .GroupBy(palabra => palabra.ToLower())
             .ToDictionary(
                 group => group.Key,
                 group => group.Count()
             );
         sw.Stop();
         Console.WriteLine($"[PLinq] Tiempo: {sw.ElapsedMilliseconds} ms.");
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
+    }
+
+    public static void ContarPalabrasPLinqLocales(string[] palabras)
+    {
+        Stopwatch sw = Stopwatch.StartNew();
+
+        Dictionary<string, int> palabrasContadas = palabras.AsParallel().Aggregate(
+            () => new Dictionary<string, int>(),            // seed. cada hilo su propio diccionario
+
+            (localDict, palabra) =>                            // cada hilo cuenta sus palabras
+            {
+                string word = palabra.ToLower();
+                if (localDict.ContainsKey(word)) localDict[word]++;
+                else localDict[word] = 1;
+                return localDict;
+            },
+
+            (dict1, dict2) =>                              // fusiona dos diccionarios parciales
+            {
+                foreach (var palabra in dict2)
+                {
+                    if (dict1.ContainsKey(palabra.Key)) dict1[palabra.Key] += palabra.Value;
+                    else dict1[palabra.Key] = palabra.Value;
+                }
+                return dict1;
+            },
+
+            finalDict => finalDict                         // devuelve el diccionario final
+        );
+
+        sw.Stop();
+        Console.WriteLine($"[PLinq Locales] Tiempo: {sw.ElapsedMilliseconds} ms.");
         // foreach (var palabra in palabrasContadas)
         // {
         //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");

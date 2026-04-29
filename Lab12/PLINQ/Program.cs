@@ -87,7 +87,6 @@ class Program
                 finalResult => finalResult              // resultado final, lo devuelvo para almacenarlo
             )
         );
-
         sw.Stop();
         Console.WriteLine($"PLINQ con locales: {sw.ElapsedMilliseconds} ms. Módulo = {modulo}");
     }
