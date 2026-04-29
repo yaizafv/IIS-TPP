@@ -11,8 +11,6 @@ class Program
         String text = ProcesadorTextos.LeerFicheroTexto(@"..\..\..\..\clarin.txt");
         string[] palabras = ProcesadorTextos.DividirEnPalabras(text);
 
-
-
         if (args.Length > 0 && args[0] == "local")
             ContarPalabrasLocal(palabras);
         else if (args.Length > 0 && args[0] == "plinq")
