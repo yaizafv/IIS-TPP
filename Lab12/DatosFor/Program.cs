@@ -30,7 +30,6 @@ class Program
 
     }
 
-
     static void ForSecuencial(string ficheroOri, string ficheroDest, Func<Rgba32, Rgba32> transformar)
     {
         Stopwatch sw = Stopwatch.StartNew();
@@ -81,9 +80,6 @@ class Program
         // Ejercicio: Implementa el código necesario para saber cuantos hilos utiliza TPL en esta operación.
 
     }
-
-
-
 
     static Rgba32 PixelSepia(Rgba32 pixel)
     {

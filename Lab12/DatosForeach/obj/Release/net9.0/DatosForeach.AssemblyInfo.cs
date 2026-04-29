@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatosForeach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa6f853c4f2fa08eea90bc2d019fdbb2b93637d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatosForeach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatosForeach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
