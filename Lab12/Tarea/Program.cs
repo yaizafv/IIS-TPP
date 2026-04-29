@@ -34,10 +34,10 @@ class Program
         );
         sw.Stop();
         Console.WriteLine($"[Secuencial] Tiempo: {sw.ElapsedMilliseconds} ms.");
-        foreach (var palabra in palabrasContadas)
-        {
-            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
-        }
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
     }
 
     public static void ContarPalabrasPLinq(string[] words)
@@ -51,10 +51,10 @@ class Program
             );
         sw.Stop();
         Console.WriteLine($"[PLinq] Tiempo: {sw.ElapsedMilliseconds} ms.");
-        foreach (var palabra in palabrasContadas)
-        {
-            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
-        }
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
     }
 
     public static void ContarPalabrasForEach(string[] palabras)
@@ -75,10 +75,10 @@ class Program
         });
         sw.Stop();
         Console.WriteLine($"[ForEach] Tiempo: {sw.ElapsedMilliseconds} ms.");
-        foreach (var palabra in palabrasContadas)
-        {
-            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
-        }
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
     }
 
     public static void ContarPalabrasFor(string[] palabras)
@@ -100,10 +100,10 @@ class Program
         });
         sw.Stop();
         Console.WriteLine($"[For] Tiempo: {sw.ElapsedMilliseconds} ms.");
-        foreach (var palabra in palabrasContadas)
-        {
-            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
-        }
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
     }
 
     public static void ContarPalabrasLocal(string[] palabras)
@@ -140,9 +140,9 @@ class Program
 
         sw.Stop();
         Console.WriteLine($"[Local] Tiempo: {sw.ElapsedMilliseconds} ms.");
-        foreach (var palabra in palabrasContadas)
-        {
-            Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
-        }
+        // foreach (var palabra in palabrasContadas)
+        // {
+        //     Console.WriteLine($"{palabra.Key}: {palabra.Value} times");
+        // }
     }
 }
